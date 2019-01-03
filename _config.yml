@@ -1,0 +1,26 @@
+name: Mijndert Stuij
+description: This is an archive of old posts
+url:            'https://mijndert.github.io'
+author:         'Mijndert Stuij'
+
+paginate: 100
+#baseurl: "/"
+
+excerpt_separator: "<!-- more -->"
+
+plugins:
+  - jekyll-paginate
+
+# Exclude on build
+exclude: [README.md, Rakefile, Makefile, LICENSE, awsenv.sh]
+
+# Include on build
+include: [_pages, .htaccess]
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed

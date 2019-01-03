@@ -1,0 +1,34 @@
+---
+layout: default
+post_class: post-template
+---
+
+<header class="main-header post-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ page.title }}</h1>
+            {% include nav.html %}
+        </div>
+    </div>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post">
+
+        <header class="post-header">
+            <section class="post-meta">
+                <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+                {% if page.categories.size > 0 %}
+                    {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
+                {% endif %}
+            </section>
+        </header>
+
+        <section class="post-content">
+            {{content}}
+        </section>
+
+    </article>
+
+</main>

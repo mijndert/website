@@ -1,0 +1,34 @@
+---
+# Let's add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+p.nav {
+	margin-top: .75rem;
+}
+
+	p.nav a {
+		margin: 0 1.5em 0 0;
+	}
+
+.main-header p.nav a {color: grey;}
+.post-header p.nav a {color: grey;}
+.page-header p.nav a {color: grey;}
+
+.u-separate {
+	margin-right: .45rem;
+  margin-left: .25rem;
+  color: #5C6E74;
+  &:after {
+      content: '\00a0/';
+  }
+}
+
+.archive {
+	margin: 0;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax"
+;

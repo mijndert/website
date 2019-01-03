@@ -1,0 +1,22 @@
+---
+layout: default
+post_class: page-template
+---
+
+<header class="main-header page-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ page.title }}</h1>
+            {% include nav.html %}
+        </div>
+    </div>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+        <section class="post-content">
+            {{content}}
+        </section>
+    </article>
+
+</main>

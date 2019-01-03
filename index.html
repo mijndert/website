@@ -1,0 +1,55 @@
+---
+layout: default
+title: Home
+about: 'about/'
+---
+
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">
+                {% if site.description %} {{ site.description }}. {% endif %}
+            </h2>
+            {% include nav.html %}
+        </div>
+    </div>
+</header>
+
+
+<main id="content" class="content" role="main">
+
+    <div class="extra-pagination inner">
+        {% include pagination.html %}
+    </div>
+
+    {% for post in paginator.posts %}
+
+      <article class="post">
+          <header class="post-header">
+              <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</h2>
+          </header>
+          <section class="post-excerpt">
+              {% if post.content contains site.excerpt_separator %}
+                {{ post.excerpt }}
+              {% else %}
+                {{ post.content }}
+              {% endif %}
+          </section>
+          <footer class="post-meta">
+              {% if post.categories.size > 0 %}
+                  {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
+              {% endif %}
+              <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                  {{ post.date | date_to_string }}
+                  <span class="u-separate"></span>
+              </time>
+              <a class="read-more" href="{{ post.url }}">Read more</a>
+          </footer>
+      </article>
+
+    {% endfor %}
+
+    {% include pagination.html %}
+
+</main>
