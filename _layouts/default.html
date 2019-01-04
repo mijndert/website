@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-      <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
-      <meta name="description" content="{{ site.description}}" />
+      <meta charset="utf-8">
+      <title>{% if page.title != "Home" %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+      <meta name="description" content="{{site.description}}" />
+      <link rel="shortcut icon" href="{{ "/favicon.ico" }}">
       <meta name="HandheldFriendly" content="True" />
       <meta name="MobileOptimized" content="320" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="shortcut icon" href="{{ "/favicon.ico" }}">
-      <meta name="google-site-verification" content="saUIHjzun9dAGQ4-YTEb0W_vLiFRM1sEiHZXPCCOmyc" />
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <link rel="canonical" href="https://mijndertstuij.nl/">
       <link rel="alternate" type="application/rss+xml" title="Mijndert Stuij" href="https://mijndertstuij.nl/feed.xml">
+      <meta name="google-site-verification" content="saUIHjzun9dAGQ4-YTEb0W_vLiFRM1sEiHZXPCCOmyc" />
   </head>
   <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
       {{ content }}
@@ -20,7 +22,7 @@
             {{site.time | date: '%Y'}} &bull; All rights reserved.
         </section>
         <section class="poweredby">
-          Made with Jekyll and &#9829;
+          Made with &#9829; using Jekyll
         </section>
       </footer>
   </body>
