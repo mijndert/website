@@ -2,6 +2,7 @@
 layout: default
 title: Home
 about: 'about/'
+cover: /assets/images/covers/cover-trees.jpg
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -42,9 +43,9 @@ about: 'about/'
               {% endif %}
               <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                   {{ post.date | date_to_string }}
-                  <span class="u-separate"></span>
+                  <!-- <span class="u-separate"></span> -->
               </time>
-              <a class="read-more" href="{{ post.url }}">Read more</a>
+              <!-- <a class="read-more" href="{{ post.url }}">Read more</a> -->
           </footer>
       </article>
 
