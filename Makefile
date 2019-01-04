@@ -1,4 +1,7 @@
-.PHONY: build serve push invalidate clean
+.PHONY: env build serve push invalidate clean
+
+env:
+	. ./awsenv.sh mijndert
 
 build: clean
 	docker run -p 4000:4000 --rm --volume="$(CURDIR):/srv/jekyll" -it jekyll/jekyll:latest jekyll b
