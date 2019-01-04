@@ -12,7 +12,7 @@ I worked at various digital agencies and hosting companies before landing a job 
 
 My days now consist of helping companies move their existing infrastructure to AWS - every day brings something new to the table.
 
-To get to know me a little better I've enumerated the tools I use and what I'm up to right now. I still have an archived version of my previous posts up on GitHub.
+To get to know me a little better I've enumerated the [tools](/uses) I use. I still have an archived version of my previous posts [up on GitHub](https://mijndert.github.io).
 
 ## Contact
 
