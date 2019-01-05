@@ -1,7 +1,7 @@
-.PHONY: env build serve push invalidate clean
+.PHONY: clean build serve push invalidate
 
-env:
-	. ./awsenv.sh mijndert
+clean:
+	$(RM) -r _site/
 
 build: clean
 	docker run -p 4000:4000 --rm --volume="$(CURDIR):/srv/jekyll" -it jekyll/jekyll:latest jekyll b
@@ -14,6 +14,3 @@ push: clean build
 
 invalidate:
 	aws cloudfront create-invalidation --distribution-id E2UZTDTT76WG3V --paths "/*"
-
-clean:
-	$(RM) -r _site/
