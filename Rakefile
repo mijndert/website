@@ -32,6 +32,7 @@ task :post do
       file << "title: \"#{@name}\"\n"
       file << "date: #{DATE} #{TIME} +02:00\n"
       file << "permalink: #{PERMALINK}#{@title}/\n"
+      file << "description: \n"
       file << "---\n"
     end
   end

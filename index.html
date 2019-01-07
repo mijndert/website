@@ -9,9 +9,6 @@ about: 'about/'
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }} 👨‍💻</h1>
-            <!-- <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
-            </h2> -->
             {% include nav.html %}
         </div>
     </div>
@@ -31,10 +28,10 @@ about: 'about/'
               <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</h2>
           </header>
           <section class="post-excerpt">
-              {% if post.content contains site.excerpt_separator %}
-                {{ post.excerpt }}
+              {% if post.description.size > 0 %}
+                {{ post.description }}
               {% else %}
-                {{ post.content }}
+                {{ post.excerpt }}
               {% endif %}
           </section>
           <footer class="post-meta">
@@ -43,9 +40,7 @@ about: 'about/'
               {% endif %}
               <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                   {{ post.date | date_to_string }}
-                  <!-- <span class="u-separate"></span> -->
               </time>
-              <!-- <a class="read-more" href="{{ post.url }}">Read more</a> -->
           </footer>
       </article>
 
