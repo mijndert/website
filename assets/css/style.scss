@@ -20,7 +20,6 @@
     9.  Footer
     10. Media Queries (Tablet)
     11. Media Queries (Mobile)
-    12. Animations
 
 */
 
@@ -414,7 +413,6 @@ margin on the iframe, cause it breaks stuff. */
     width: 100%;
     height: 40%;
     margin-bottom: 5rem;
-    /* text-align: center; */
     background: #222 no-repeat center center;
     background-size: cover;
     overflow: hidden;
@@ -479,32 +477,6 @@ margin on the iframe, cause it breaks stuff. */
     width: auto;
 }
 
-.about-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    float: left;
-    height: 38px;
-    padding: 0 15px 0 10px;
-    border: transparent 1px solid;
-    color: #9EABB3;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 35px;
-    border-radius: 3px;
-    background: rgba(0,0,0,0.1);
-    transition: all ease 0.3s;
-}
-.about-button:before {
-    position: relative;
-    bottom: -2px;
-    font-size: 13px;
-    line-height: 0;
-    margin-right: 8px;
-}
-
 /* Special styles when overlaid on an image*/
 .main-nav.overlay {
     position: absolute;
@@ -540,14 +512,6 @@ margin on the iframe, cause it breaks stuff. */
     border-color: #fff;
     background: #fff;
     transition: all 0.1s ease;
-}
-
-/* Add a border to the buttons on hover */
-.back-button:hover,
-.about-button:hover,
-.subscribe-button:hover {
-    border-color: #bfc8cd;
-    color: #9EABB3;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -643,14 +607,6 @@ body:not(.post-template) .post-title {
     color: #9EABB3;
 }
 
-.author-thumb {
-    width: 24px;
-    height: 24px;
-    float: left;
-    margin-right: 9px;
-    border-radius: 100%;
-}
-
 .post-meta a {
     color: #9EABB3;
     text-decoration: none;
@@ -672,24 +628,6 @@ body:not(.post-template) .post-title {
     text-transform: uppercase;
     font-size: 1.3rem;
     white-space: nowrap;
-}
-
-.user-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.user-name {
-    display: block;
-    font-weight: 700;
-}
-
-.user-bio {
-    display: block;
-    max-width: 440px;
-    font-size: 1.4rem;
-    line-height: 1.5em;
 }
 
 .publish-meta {
@@ -1178,25 +1116,6 @@ body:not(.post-template) .post-title {
         color: #2e2e2e;
         background: transparent;
     }
-    .back-button:hover,
-    .about-button:hover,
-    .subscribe-button:hover {
-        border-color: #ebeef0;
-        color: #2e2e2e;
-        background: #ebeef0;
-    }
-
-    .about-button {
-        padding: 0 15px 0 10px;
-    }
-
-    .back-button {
-        padding: 0 15px 0 10px;
-    }
-
-    .subscribe-button {
-        padding: 0 12px;
-    }
 
     .main-nav.overlay a:hover {
         color: #fff;
@@ -1373,10 +1292,6 @@ body:not(.post-template) .post-title {
         margin-top: 3rem;
     }
 
-    .author-profile {
-        padding-bottom: 2rem;
-    }
-
     .post-head.main-header {
         height: 30%;
     }
@@ -1386,83 +1301,8 @@ body:not(.post-template) .post-title {
         height: 20%;
     }
 
-    .author-profile .author-image {
-        margin-top: -70px;
-    }
-
-    .author-profile .author-meta span {
-        font-size: 1.4rem;
-    }
-
     .archive-template .main-header .page-description {
         display: none;
     }
 
 }
-
-
-/* ==========================================================================
-   12. Animations
-   ========================================================================== */
-
-/* Used to fade in title/desc on the home page */
-@-webkit-keyframes fade-in-down {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-}
-@keyframes fade-in-down {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-}
-
-/* Used to bounce .scroll-down on home page */
-@-webkit-keyframes bounce {
-    0%, 10%, 25%, 40%, 50% {
-        -webkit-transform: translateY(0) rotate(-90deg);
-                transform: translateY(0) rotate(-90deg);
-    }
-    20% {
-        -webkit-transform: translateY(-10px) rotate(-90deg);
-                transform: translateY(-10px) rotate(-90deg);
-    }
-    30% {
-        -webkit-transform: translateY(-5px) rotate(-90deg);
-                transform: translateY(-5px) rotate(-90deg);
-    }
-}
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        -webkit-transform: translateY(0) rotate(-90deg);
-                transform: translateY(0) rotate(-90deg);
-    }
-    40% {
-        -webkit-transform: translateY(-10px) rotate(-90deg);
-                transform: translateY(-10px) rotate(-90deg);
-    }
-    60% {
-        -webkit-transform: translateY(-5px) rotate(-90deg);
-                transform: translateY(-5px) rotate(-90deg);
-    }
-}
-
-
-/* ==========================================================================
-   End of file. Animations should be the last thing here. Do not add stuff
-   below this point, or it will probably fuck everything up.
-   ========================================================================== */
