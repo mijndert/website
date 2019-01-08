@@ -3,8 +3,7 @@ description:    Consulting AWS architect and proponent of simplicity with a focu
 url:            'https://mijndert.github.io'
 author:         'Mijndert Stuij'
 
-paginate: 5
-#baseurl: "/"
+paginate: 10
 
 excerpt_separator: "<!-- more -->"
 

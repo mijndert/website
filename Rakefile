@@ -1,23 +1,17 @@
-# == Set variables =========================================
-
 DATE = Time.now.strftime("%Y-%m-%d")
 TIME = Time.now.strftime("%H:%M:%S")
 POST_DIR = '_posts'
-PERMALINK = '/writing/posts/'
-
-# == Definitions =========================================
+PERMALINK = '/post/:year/'
 
 def prompt(*args)
   print(*args)
   gets
 end
 
-# == Task/post =============================================
-
 desc "Generate new post"
 task :post do
 
-  puts 'Please write the post title'
+  puts 'Post title:'
   @name = STDIN.gets.chomp
 
   @title = @name.downcase.strip.gsub(' ', '-')
@@ -32,7 +26,7 @@ task :post do
       file << "title: \"#{@name}\"\n"
       file << "date: #{DATE} #{TIME} +02:00\n"
       file << "permalink: #{PERMALINK}#{@title}/\n"
-      file << "description: \n"
+      file << "description: \"\"\n"
       file << "---\n"
     end
   end

@@ -2,7 +2,7 @@
 layout: post
 title: "7"
 date: 2019-01-08 11:45:02 +02:00
-permalink: /writing/posts/7/
+permalink: /post/:year/7/
 description: "My iPhone 7 will serve me for many more years."
 ---
 
@@ -18,4 +18,4 @@ Of course people holding on to their phones for longer is a problem for Apple. T
 
 In the longterm this is not going to be a sustainable business model for them. Apple needs to come up with a new Money Making Machine. Apple seems to be aware they need to become a platform company by offering [iTunes on Samsung tv's](https://www.theverge.com/2019/1/6/18170797/samsung-2019-tvs-itunes-support-airplay-2) and AirPlay 2 on others. These are all great steps in the right direction.
 
-But will it make iPhones more affordable again? 
+But will it make iPhones more affordable again?
