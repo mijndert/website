@@ -1141,6 +1141,10 @@ body:not(.post-template) .post-title {
         height: 40%;
     }
 
+    .main-header-content.inner {
+      margin: 0 0 0 16px !important;
+    }
+
     .no-cover.main-header {
         height: 30%;
     }

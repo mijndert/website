@@ -16,7 +16,7 @@ To get to know me a little better I've enumerated the [tools](/uses) I use. I st
 
 ## Contact
 
-Due to my busy schedule I prefer asynchronous communication. Either send me an e-mail (mijndert @ this domain) or find me on [Twitter](https://twitter.com/mijndert).
+Due to my busy schedule I prefer asynchronous communication. Either send me an email (mijndert @ this domain) or find me on [Twitter](https://twitter.com/mijndert).
 
 Please use [Keybase](https://keybase.io/mijndert) if you want to send encrypted messages for some reason.
 
