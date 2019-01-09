@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "7"
+title: "Seven"
 date: 2019-01-08 11:45:02 +02:00
-permalink: /post/:year/7/
+permalink: /post/:year/seven/
 description: "My iPhone 7 will serve me for many more years."
 ---
 
