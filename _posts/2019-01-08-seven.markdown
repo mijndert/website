@@ -6,7 +6,7 @@ permalink: /post/:year/seven/
 description: "My iPhone 7 will serve me for many more years."
 ---
 
-When the iPhone X and 8 were released 2017 I had to get a new phone. My 6S had been on the verge of breaking due to [battery issues](https://www.apple.com/support/iphone6s-unexpectedshutdown/) - I didn't trust it anymore. But, instead of getting the latest iPhone, I got myself a 7.
+When the iPhone X and 8 were released in 2017 I had to get a new phone. My 6S had been on the verge of breaking due to [battery issues](https://www.apple.com/support/iphone6s-unexpectedshutdown/) - I didn't trust it anymore. But, instead of getting the latest iPhone, I got myself a 7.
 
 I could buy an iPhone 7 with a whopping 128GB of storage for less than what Apple tries to sell the iPhone 8 for.
 
