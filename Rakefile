@@ -4,6 +4,7 @@ POST_DIR = '_posts'
 PERMALINK = '/post/:year/'
 
 def prompt(*args)
+
   print(*args)
   gets
 end
