@@ -762,61 +762,6 @@ body:not(.post-template) .post-title {
     color: #50585D;
 }
 
-/* CSS tooltip saying "Subscribe!" - initially hidden */
-.tooltip {
-    opacity: 0;
-    display: block;
-    width: 53px;
-    padding: 4px 8px 5px 8px;
-    position:absolute;
-    top: -23px;
-    left: -21px;
-    color: rgba(255,255,255,0.9);
-    font-size: 1.1rem;
-    line-height: 1em;
-    text-align: center;
-    background: #50585D;
-    border-radius: 20px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-    transition: opacity 0.3s ease, top 0.3s ease;
-}
-
-/* The little chiclet arrow under the tooltip, pointing down */
-.tooltip:after {
-    content: " ";
-    border-width: 5px 5px 0 5px;
-    border-style: solid;
-    border-color: #50585D transparent;
-    display: block;
-    position: absolute;
-    bottom: -4px;
-    left: 50%;
-    margin-left: -5px;
-    z-index: 220;
-    width: 0;
-}
-
-/* On hover, show the tooltip! */
-.subscribe:hover .tooltip {
-    opacity: 1;
-    top: -33px;
-}
-
-/* ==========================================================================
-   7. Third Party Elements - Embeds from other services
-   ========================================================================== */
-
-/* Github */
-.gist table {
-    margin: 0;
-    font-size: 1.4rem;
-}
-.gist .line-number {
-    min-width: 25px;
-    font-size: 1.1rem;
-}
-
-
 /* ==========================================================================
    8. Pagination - Tools to let you flick between pages
    ========================================================================== */
@@ -976,10 +921,6 @@ body:not(.post-template) .post-title {
         padding: 10% 0;
     }
 
-    .blog-logo img {
-        padding: 4px 0;
-    }
-
     .page-title {
         font-size: 4rem;
         letter-spacing: -1px;
@@ -1101,10 +1042,6 @@ body:not(.post-template) .post-title {
 
     .blog-logo {
         padding: 10px 10px;
-    }
-
-    .blog-logo img {
-        height: 26px;
     }
 
     .back-button,
