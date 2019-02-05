@@ -10,18 +10,29 @@ $body-bg-color: #FFFFFF;
 $header-bg-color: #F5F8FA;
 
 $header-min-height: 160px;
-$header-max-height: 40%;
+$header-max-height: 30%;
 
 * {
   margin: 0;
   padding: 0;
 }
 
-h1 {
+h1,h2,h3,h4,h5 {
+  font-family: $header-font;
   color: rgba(0,0,0,0.8);
-  font-size: 3rem;
   letter-spacing: 1px;
   font-weight: 700;
+  display: block;
+}
+
+h1 {
+  font-size: 4.5vw;
+}
+
+h2 {
+  font-size: 3.5vw;
+  margin: 0 0 0.4em 0;
+  text-decoration: none;
 }
 
 html {
@@ -31,12 +42,13 @@ html {
 
 body {
   background-color: $body-bg-color;
+  height: 100%;
+  max-height: 100%;
 }
 
 .main-header {
   width: 100%;
-  min-height: $header-min-height;
-  max-height: $header-max-height;
+  height: $header-max-height;
   background: $header-bg-color;
   margin-bottom: 5rem;
   display: table;
@@ -64,6 +76,40 @@ body {
     }
 
       .nav a {
+        font-size: 1.5vw;
         color: grey;
         margin: 0 1rem 0 0;
       }
+
+.content {
+  display: block;
+}
+
+  .post {
+    position: relative;
+    width: 80%;
+    max-width: 710px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    word-break: break-word;
+    hyphens: auto;
+  }
+
+    .post-title a {
+      text-decoration: none;
+      color: rgba(0,0,0,0.8);
+    }
+
+    .post-excerpt {
+      font-family: $content-font;
+      font-size: 1.5vw;
+    }
+
+    .post-meta {
+      display: block;
+      margin: 1.75rem 0 0 0;
+      font-family: $header-font;
+      font-size: 1.25vw;
+      line-height: 2.2rem;
+      color: #9EABB3;
+    }
