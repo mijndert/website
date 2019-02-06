@@ -1,0 +1,26 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+---
+
+{% for post in site.posts %}
+  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if currentyear != year %}
+     <h2>{{ currentyear }}</h2>
+    {% capture year %}{{currentyear}}{% endcapture %}
+  {% endif %}
+  <ul class="archive-list">
+    <li>
+      <!-- <span class="post-meta">{{ post.date | date: "%B %d" }}</span> -->
+      <a class="archive-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <section class="archive-excerpt">
+          {% if post.description.size > 0 %}
+            {{ post.description }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+      </section>
+    </li>
+  </ul>
+{% endfor %}

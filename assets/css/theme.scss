@@ -146,6 +146,21 @@ body {
     font-size: 0.8em;
   }
 
+.archive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.archive-title {
+  font-family: $header-font;
+  font-weight: 700;
+}
+
+.archive-excerpt {
+  margin: 0.5em 0 1em 0;
+}
+
 @media only screen and (max-width: 600px) {
 
   h1 {
