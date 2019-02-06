@@ -1,0 +1,148 @@
+---
+# Let's add a comment to make this file sass-y.
+---
+
+$header-font: "Open Sans", sans-serif;
+$content-font: "Merriweather", serif;
+$code-font: monospace;
+
+$body-bg-color: #FFFFFF;
+$header-bg-color: #F5F8FA;
+
+$header-min-height: 160px;
+$header-max-height: 30%;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: $header-font;
+  color: rgba(0,0,0,0.8);
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: block;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0 0 0.4em 0;
+  text-decoration: none;
+}
+
+a {
+  color: #3A4145;
+}
+
+ul {
+  margin: 0 0 0 2em;
+}
+
+ul li {
+  margin: 0 0 0.8em 0;
+}
+
+html {
+  height: 100%;
+  max-height: 100%;
+}
+
+body {
+  background-color: $body-bg-color;
+  height: 100%;
+  max-height: 100%;
+}
+
+.main-header {
+  width: 100%;
+  height: $header-max-height;
+  background: $header-bg-color;
+  margin-bottom: 5rem;
+  display: table;
+  font-family: $header-font;
+}
+
+  .inner {
+    width: 80%;
+    max-width: 710px;
+    margin: 0 auto;
+  }
+
+  .vertical {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+    .page-title {
+      margin: 0 10px 0 0;
+    }
+
+    .nav {
+      margin: .72rem 0 1rem 0;
+      font-family: $content-font;
+    }
+
+      .nav a {
+        font-size: 1.2em;
+        color: grey;
+        margin: 0 1rem 0 0;
+      }
+
+.content {
+  display: block;
+}
+
+  .post {
+    position: relative;
+    width: 80%;
+    max-width: 710px;
+    margin: 3rem auto;
+    padding-bottom: 2rem;
+    word-break: break-word;
+    hyphens: auto;
+  }
+
+    .post-title a {
+      text-decoration: none;
+      color: rgba(0,0,0,0.8);
+    }
+
+    .post-excerpt, .post-content {
+      font-family: $content-font;
+      font-size: 1.2em;
+      color: #3A4145;
+    }
+
+    .post-meta {
+      display: block;
+      margin: 1em 0 0 0;
+      font-family: $header-font;
+      font-size: 0.8em;
+      line-height: 2.2rem;
+      color: #9EABB3;
+      text-transform: uppercase;
+    }
+
+    .post-content p {
+      display: block;
+      margin: 0 0 1.75em 0;
+      line-height: 1.75em;
+    }
+
+.site-footer {
+  position: relative;
+  width: 80%;
+  max-width: 710px;
+  margin: 3rem auto;
+  padding-bottom: 2rem;
+}
+
+  .site-footer p {
+    font-family: $header-font;
+    font-size: 0.8em;
+  }
