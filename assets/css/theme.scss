@@ -133,3 +133,16 @@ body {
       margin: 0 0 1.75em 0;
       line-height: 1.75em;
     }
+
+.site-footer {
+  position: relative;
+  width: 80%;
+  max-width: 710px;
+  margin: 3rem auto;
+  padding-bottom: 2rem;
+}
+
+  .site-footer p {
+    font-family: $header-font;
+    font-size: 0.8em;
+  }
