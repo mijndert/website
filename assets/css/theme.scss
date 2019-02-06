@@ -26,13 +26,25 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-  font-size: 4.5vw;
+  font-size: 3.5em;
 }
 
 h2 {
-  font-size: 3.5vw;
+  font-size: 2.5em;
   margin: 0 0 0.4em 0;
   text-decoration: none;
+}
+
+a {
+  color: #3A4145;
+}
+
+ul {
+  margin: 0 0 0 2em;
+}
+
+ul li {
+  margin: 0 0 0.8em 0;
 }
 
 html {
@@ -76,7 +88,7 @@ body {
     }
 
       .nav a {
-        font-size: 1.5vw;
+        font-size: 1.2em;
         color: grey;
         margin: 0 1rem 0 0;
       }
@@ -89,8 +101,8 @@ body {
     position: relative;
     width: 80%;
     max-width: 710px;
-    margin: 4rem auto;
-    padding-bottom: 4rem;
+    margin: 3rem auto;
+    padding-bottom: 2rem;
     word-break: break-word;
     hyphens: auto;
   }
@@ -100,16 +112,24 @@ body {
       color: rgba(0,0,0,0.8);
     }
 
-    .post-excerpt {
+    .post-excerpt, .post-content {
       font-family: $content-font;
-      font-size: 1.5vw;
+      font-size: 1.2em;
+      color: #3A4145;
     }
 
     .post-meta {
       display: block;
-      margin: 1.75rem 0 0 0;
+      margin: 1em 0 0 0;
       font-family: $header-font;
-      font-size: 1.25vw;
+      font-size: 0.8em;
       line-height: 2.2rem;
       color: #9EABB3;
+      text-transform: uppercase;
+    }
+
+    .post-content p {
+      display: block;
+      margin: 0 0 1.75em 0;
+      line-height: 1.75em;
     }
