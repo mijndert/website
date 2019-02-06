@@ -150,16 +150,37 @@ body {
 @media only screen and (max-width: 600px) {
 
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 
   .main-header {
     margin-bottom: 15px;
     height: 40%;
   }
+
+    .nav a {
+      font-size: 1rem;
+      margin: 0 1rem 0 0;
+    }
+
+  .post {
+    margin: 3rem auto;
+    padding-bottom: 0;
+  }
+
+    .post-excerpt, .post-content {
+      font-family: $content-font;
+      font-size: 1em;
+      color: #3A4145;
+    }
+
+    .post-meta {
+      display: block;
+      margin: 0.5rem 0 0 0;
+    }
 
 }
