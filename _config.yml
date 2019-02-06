@@ -3,12 +3,11 @@ description:    Consulting AWS architect and proponent of simplicity with a focu
 url:            'https://mijndertstuij.nl'
 author:         'Mijndert Stuij'
 
-paginate: 10
+#paginate: 10
+#excerpt_separator: "<!-- more -->"
 
-excerpt_separator: "<!-- more -->"
-
-plugins:
-  - jekyll-paginate
+#plugins:
+#  - jekyll-paginate
 
 # Exclude on build
 exclude: [README.md, Rakefile, Makefile, awsenv.sh]
