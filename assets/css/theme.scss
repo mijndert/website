@@ -9,8 +9,7 @@ $code-font: monospace;
 $body-bg-color: #FFFFFF;
 $header-bg-color: #F5F8FA;
 
-$header-min-height: 160px;
-$header-max-height: 30%;
+$header-height: 15em;
 
 * {
   margin: 0;
@@ -30,7 +29,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.4em;
   margin: 0 0 0.4em 0;
   text-decoration: none;
 }
@@ -60,7 +59,7 @@ body {
 
 .main-header {
   width: 100%;
-  height: $header-max-height;
+  height: $header-height;
   background: $header-bg-color;
   margin-bottom: 5rem;
   display: table;
@@ -159,8 +158,12 @@ body {
 
   .main-header {
     margin-bottom: 15px;
-    height: 40%;
+    height: 14em;
   }
+
+    .inner {
+      width: 90%;
+    }
 
     .nav a {
       font-size: 1rem;
@@ -170,6 +173,7 @@ body {
   .post {
     margin: 3rem auto;
     padding-bottom: 0;
+    width: 90%;
   }
 
     .post-excerpt, .post-content {
@@ -182,5 +186,9 @@ body {
       display: block;
       margin: 0.5rem 0 0 0;
     }
+
+  .site-footer {
+    width: 90%;
+  }
 
 }
