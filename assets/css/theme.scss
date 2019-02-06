@@ -146,3 +146,20 @@ body {
     font-family: $header-font;
     font-size: 0.8em;
   }
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .main-header {
+    margin-bottom: 15px;
+    height: 40%;
+  }
+
+}
