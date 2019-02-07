@@ -14,4 +14,9 @@
   <link rel="canonical" href="https://mijndertstuij.nl/">
   <link rel="alternate" type="application/rss+xml" title="Mijndert Stuij" href="https://mijndertstuij.nl/feed.xml">
   <meta name="google-site-verification" content="saUIHjzun9dAGQ4-YTEb0W_vLiFRM1sEiHZXPCCOmyc" />
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', (event) => {
+      ((localStorage.getItem('mode')) === 'dark') ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')
+    })
+  </script>
 </head>
