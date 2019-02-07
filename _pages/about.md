@@ -20,7 +20,7 @@ Due to my busy schedule I prefer asynchronous communication. Either send me an e
 
 Please use [Keybase](https://keybase.io/mijndert) if you want to send encrypted messages for some reason.
 
-## Publications elsewhere
+## Publications
 
 - [AWS Explained: Global Infrastructure](https://www.inqdo.com/aws-explained-global-infrastructure/?lang=en)
 - [AWS Explained: The Basics](https://www.inqdo.com/aws-explained-the-basics/?lang=en)
