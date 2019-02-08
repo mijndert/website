@@ -104,6 +104,11 @@ body {
         margin: 0 1rem 0 0;
       }
 
+      .nav svg {
+        fill: grey;
+        margin-bottom: -0.2em;
+      }
+
 .content {
   display: block;
 }
@@ -237,6 +242,11 @@ body.dark {
 
 body.dark .main-header {
   background-color: #282828;
+}
+
+body.dark .nav svg {
+  fill: white;
+  margin-bottom: -0.2em;
 }
 
 body.dark .post-excerpt {
