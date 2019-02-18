@@ -31,6 +31,7 @@ I use a lot of apps throughout the day but these are the ones I use the most.
 - [Google Photos](https://photos.google.com/): automatically creates a backup of my photos and reminds me of cool stuff that happened years ago.
 - [Authy](https://authy.com): stores my MFA keys so that I don't have to carry a bunch of physical ones.
 - [Apollo](https://apolloapp.io): the best Reddit app at this moment, with a nice native looking design.
+- [WaterMinder](http://waterminder.com/): reminds me to drink more water, which I sorely need in my life because I'm really bad at it.
 
 ## ⌨️ Hardware
 
