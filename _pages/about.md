@@ -12,12 +12,6 @@ My days now consist of helping companies move their existing infrastructure to A
 
 I practice minimalism as much as possible. Something I also try to incorporate in my work. I always strive for the most simple solution to a problem. I'm a thinker, and a bit of an introvert. I love solving puzzles and that's exactly what my current job affords me to do.
 
-## Contact
-
-Due to my busy schedule I prefer asynchronous communication. Either send me an email (mijndert @ this domain) or find me on [Twitter](https://twitter.com/mijndert).
-
-Please use [Keybase](https://keybase.io/mijndert) if you want to send encrypted messages for some reason.
-
 ## Disclaimer
 
 All views expressed on this website are my own and not those of my current or previous employer(s).
