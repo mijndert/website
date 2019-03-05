@@ -149,6 +149,13 @@ body {
       line-height: 1.75em;
     }
 
+.support {
+  font-family: $content-font;
+  font-size: 0.9em;
+  color: #3A4145;
+  margin: 5em 0 0 0;
+}
+
 .site-footer {
   position: relative;
   width: 80%;
@@ -233,6 +240,10 @@ body {
       margin: 0.5rem 0 0 0;
     }
 
+  .support {
+    font-size: 0.8em;
+  }
+
   .site-footer {
     width: 90%;
   }
@@ -268,6 +279,10 @@ body.dark .post-excerpt {
 }
 
 body.dark .post-content {
+  color: white;
+}
+
+body.dark .support {
   color: white;
 }
 
