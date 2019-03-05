@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Mono"
+date: 2019-03-05 09:42:38 +02:00
+permalink: /post/:year/mono/
+description: ""
+---
