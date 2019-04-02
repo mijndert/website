@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Opposite"
+date: 2019-04-02 09:48:20 +02:00
+permalink: /post/:year/opposite/
+description: "Why Openbook has a good chance of making social networks relevant again."
+---
+
+I haven't been a very active participant on social networks for the past few years. My Facebook timeline has succumbed to advertisers and publishers all vying for my attention. I occasionally open the Facebook app and once again come to the conclusion that, in fact, I haven't missed a single post by an actual human being.
+
+I do however love Instagram, although I'm not an active poster there either. Instagram isn't a place to talk politics or climate change - though they are undoubtedly very important topics. Instagram is more of a serene place where I go any look at pretty pictures of corgis and sunsets. My friends are all there, as are my interests via a feature which lets me follow certain hashtags.
+
+Online I saw some people talking about [Openbook](https://www.openbook.social/en/home) - a social network that promises to be a sort of opposite Facebook if you will. They promise to have a responsible business model and respect one's privacy. Everything Facebook seems fundamentally unable or unwilling to do. 
+
+> Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money as possible out of people, no matter the consequences. ([source](https://www.openbook.social/en/manifesto))
+
+At first I was skeptical. Surely, I don't need another social network to post pictures of our bunny. There are plenty and I haven't used any of time regularly for years now. After reading their [manifesto](https://www.openbook.social/en/manifesto) though, I made sure to get an invite to the alpha and joined the lovely community on Slack.
+
+I was sold immediately. 
+
+There's still a lot of bugs, problems, and missing features in the app. It's definitely not up to the task of taking on other social networks on features alone. But the promise is there and that's what people are buying into right now. A promise that this time things will be different, this time a true democratized social network will rise and change the world - albeit slowly. The team is certainly up for the task of making everything they promise a reality. 
+
+I don't think the world doesn't need another social network - but let's not call Openbook just another social network. It's a new platform for open, honest communication among peers. And finally a platform that resonates with nerds like me, because most everything is open source and thus auditable. 
+
+If you're even remotely thinking of jumping ship from Facebook, I implore you to have a look at Openbook and decide for yourself. 
+
+
+
