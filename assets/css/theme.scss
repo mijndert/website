@@ -6,6 +6,8 @@ $header-font: "Open Sans", sans-serif;
 $content-font: "Merriweather", serif;
 $code-font: monospace;
 
+$website-width: 780px;
+
 $body-bg-color: #FFFFFF;
 $header-bg-color: #F5F8FA;
 
@@ -89,7 +91,7 @@ body {
 
   .inner {
     width: 80%;
-    max-width: 710px;
+    max-width: $website-width;
     margin: 0 auto;
   }
 
@@ -125,7 +127,7 @@ body {
   .post {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: $website-width;
     margin: 3rem auto;
     padding-bottom: 2rem;
     word-break: break-word;
@@ -161,7 +163,7 @@ body {
 .site-footer {
   position: relative;
   width: 80%;
-  max-width: 710px;
+  max-width: $website-width;
   margin: 3rem auto;
   padding-bottom: 2rem;
 }
