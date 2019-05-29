@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Uses
+description: "A living document of the tools that I use to do my work."
 permalink: /uses/
 ---
 

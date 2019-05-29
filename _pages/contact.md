@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+description: "Ways of contacting me."
 permalink: /contact/
 ---
 

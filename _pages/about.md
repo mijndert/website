@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: "Why I do what I do."
 permalink: /about/
 ---
 
