@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 description: "Ways of contacting me."
-permalink: /contact/
+permalink: /more/contact/
 ---
 
 Due to my busy schedule I prefer asynchronous communication. Either send me an email (mijndert @ this domain) or find me on [Twitter](https://twitter.com/mijndert).

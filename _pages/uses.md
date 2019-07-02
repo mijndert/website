@@ -2,7 +2,7 @@
 layout: page
 title: Uses
 description: "A living document of the tools that I use to do my work."
-permalink: /uses/
+permalink: /more/uses/
 ---
 
 If you're anything like me you probably love to talk about the tools that you use to do your work every day. This page serves as a living document of the things I use every day.
