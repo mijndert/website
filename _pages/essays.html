@@ -1,0 +1,27 @@
+---
+layout: page
+title: Essays
+description: "Every essay I've written so far."
+permalink: /more/essays/
+---
+
+{% for post in site.categories.essay %}
+  <ul class="archive-list">
+    <li>
+      <a class="archive-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="archive-meta">
+        <time class="post-date" datetime="{{ post.date | date: '%B %d, %Y' }}">
+            {{ post.date | date: '%B %d, %Y' }}
+        </time>
+        <a class="permalink" href="{{ post.url }}">&infin;</a>
+      </span>
+      <section class="archive-excerpt">
+          {% if post.description.size > 0 %}
+            {{ post.description }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+      </section>
+    </li>
+  </ul>
+{% endfor %}

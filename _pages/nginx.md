@@ -21,7 +21,6 @@ keepalive_disable none; # allow all browsers to use keepalive connections
 ## Size limits
 
 ```shell
-# Size Limits
 client_body_buffer_size 8k;
 client_header_buffer_size 1k;
 client_max_body_size 10m;
@@ -31,7 +30,6 @@ large_client_header_buffers 4 4k;
 ## Headers
 
 ```shell
-# Extra security headers
 server_tokens off;
 add_header X-Frame-Options SAMEORIGIN;
 add_header X-Content-Type-Options nosniff;

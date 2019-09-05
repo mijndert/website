@@ -59,8 +59,8 @@ task :external do
   end
 end
 
-desc "Generate new how-to post"
-task :howto do
+desc "Generate new tutorial post"
+task :tutorial do
 
   puts 'Post title:'
   @name = STDIN.gets.chomp
@@ -78,7 +78,7 @@ task :howto do
       file << "date: #{DATE} #{TIME} +02:00\n"
       file << "permalink: #{PERMALINK}#{@title}/\n"
       file << "description: \"\"\n"
-      file << "category: how-to\n"
+      file << "category: tutorial\n"
       file << "---\n"
     end
   end
