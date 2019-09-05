@@ -4,6 +4,7 @@ title: "Access"
 date: 2019-01-09 10:47:15 +02:00
 permalink: /post/:year/access/
 description: "Your television is spying on you and nothing gets patched."
+category: essay
 ---
 
 I have known for a very long time that today's televisions are sending data back home at an unprecedented scale. Companies like Samsung make tv's so cheap, you have to be the product one way or the other. We have a Sony set running Android so it's bound to send data back too - it's in the nature of the software it's running. Even if we're not using the built-in OS it will know when I've selected the HDMI input for my Xbox, I'm sure.

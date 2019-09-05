@@ -4,6 +4,7 @@ title: "Seven"
 date: 2019-01-08 11:45:02 +02:00
 permalink: /post/:year/seven/
 description: "My iPhone 7 will serve me for many more years."
+category: essay
 ---
 
 When the iPhone X and 8 were released in 2017 I had to get a new phone. My 6S had been on the verge of breaking due to [battery issues](https://www.apple.com/support/iphone6s-unexpectedshutdown/) - I didn't trust it anymore. But, instead of getting the latest iPhone, I got myself a 7.

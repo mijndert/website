@@ -9,8 +9,8 @@ def prompt(*args)
   gets
 end
 
-desc "Generate new post"
-task :post do
+desc "Generate new essay post"
+task :essay do
 
   puts 'Post title:'
   @name = STDIN.gets.chomp
@@ -28,6 +28,57 @@ task :post do
       file << "date: #{DATE} #{TIME} +02:00\n"
       file << "permalink: #{PERMALINK}#{@title}/\n"
       file << "description: \"\"\n"
+      file << "category: essay\n"
+      file << "---\n"
+    end
+  end
+end
+
+desc "Generate new link post"
+task :external do
+
+  puts 'Post title:'
+  @name = STDIN.gets.chomp
+
+  @title = @name.downcase.strip.gsub(' ', '-')
+  @file = "#{POST_DIR}/#{DATE}-#{@title}.markdown"
+
+  if File.exists?("#{file}")
+    raise 'file already exists'
+  else
+    File.open(@file, 'a+') do |file|
+      file << "---\n"
+      file << "layout: post\n"
+      file << "title: \"#{@name}\"\n"
+      file << "date: #{DATE} #{TIME} +02:00\n"
+      file << "permalink: #{PERMALINK}#{@title}/\n"
+      file << "category: external\n"
+      file << "link: \n"
+      file << "---\n"
+    end
+  end
+end
+
+desc "Generate new how-to post"
+task :howto do
+
+  puts 'Post title:'
+  @name = STDIN.gets.chomp
+
+  @title = @name.downcase.strip.gsub(' ', '-')
+  @file = "#{POST_DIR}/#{DATE}-#{@title}.markdown"
+
+  if File.exists?("#{file}")
+    raise 'file already exists'
+  else
+    File.open(@file, 'a+') do |file|
+      file << "---\n"
+      file << "layout: post\n"
+      file << "title: \"#{@name}\"\n"
+      file << "date: #{DATE} #{TIME} +02:00\n"
+      file << "permalink: #{PERMALINK}#{@title}/\n"
+      file << "description: \"\"\n"
+      file << "category: how-to\n"
       file << "---\n"
     end
   end

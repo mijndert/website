@@ -18,7 +18,7 @@ title: Home
 
       <article class="post">
           <header class="post-header">
-              <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</h2>
+              <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &#10132;</span>{% endif %}</h2>
           </header>
           <section class="post-excerpt">
               {% if post.description.size > 0 %}
@@ -29,11 +29,12 @@ title: Home
           </section>
           <footer class="post-meta">
               {% if post.categories.size > 0 %}
-                  {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
+                  {{ post.categories | array_to_sentence_string | append: ' on ' }}
               {% endif %}
-              <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                  {{ post.date | date_to_string }}
+              <time class="post-date" datetime="{{ post.date | date: '%B %d, %Y' }}">
+                  {{ post.date | date: '%B %d, %Y' }}
               </time>
+              <a class="permalink" href="{{ post.url }}">&infin;</a>
           </footer>
       </article>
 

@@ -13,8 +13,8 @@ permalink: /archive/
   {% endif %}
   <ul class="archive-list">
     <li>
-      <!-- <span class="post-meta">{{ post.date | date: "%B %d" }}</span> -->
       <a class="archive-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="archive-meta">{{ post.category }} <a class="permalink" href="{{ post.url }}">&infin;</a></span>
       <section class="archive-excerpt">
           {% if post.description.size > 0 %}
             {{ post.description }}
