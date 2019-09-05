@@ -40,6 +40,10 @@ a {
   color: #3A4145;
 }
 
+  a.permalink {
+    text-decoration: none;
+  }
+
 img {
   max-width: 100%;
 }
@@ -182,6 +186,16 @@ body {
 .archive-title {
   font-family: $header-font;
   font-weight: 700;
+  
+}
+
+.archive-meta {
+  margin: 1em 0 0 .5em;
+  font-family: $header-font;
+  font-size: 0.8em;
+  line-height: 2.2rem;
+  color: #9EABB3;
+  text-transform: uppercase;
 }
 
 .archive-excerpt {

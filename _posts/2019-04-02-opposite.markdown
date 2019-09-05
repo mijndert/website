@@ -4,6 +4,7 @@ title: "Opposite"
 date: 2019-04-02 09:48:20 +02:00
 permalink: /post/:year/opposite/
 description: "Why Openbook has a good chance of making social networks relevant again."
+category: essay
 ---
 
 I haven't been a very active participant on social networks for the past few years. My Facebook timeline has succumbed to advertisers and publishers all vying for my attention. I occasionally open the Facebook app and once again come to the conclusion that, in fact, I haven't missed a single post by an actual human being.

@@ -4,6 +4,7 @@ title: "2019"
 date: 2019-01-07 14:57:27 +02:00
 permalink: /post/:year/2019/
 description: "Guiding principles for the coming year."
+category: essay
 ---
 
 - Experiences over possessions
