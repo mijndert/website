@@ -11,7 +11,7 @@ If you're anything like me you probably love to talk about the tools that you us
 
 I use a lot of apps throughout the day but these are the ones I use the most.
 
-- [Chrome](https://www.google.com/intl/nl/chrome/): still my primary browser but I'm always looking for something else because why not?
+- [Firefox](https://www.mozilla.org/firefox/new/): a super fast, customizable web browser. I use it every single day on all my devices.
 - [iTerm2](https://www.iterm2.com): I work in the terminal 80% of the time, why not pick the best terminal app?
 - [VS Code](https://code.visualstudio.com): I replaced Atom with VS Code recently and couldn't be happier. It's fast, has a bunch of cool plug-ins and gets new features on a regular basis.
 - [Vim](https://www.vim.org): whenever I need to do some quick edits I usually pick Vim.
@@ -33,9 +33,9 @@ In terms of hardware I try to maintain a fairly simple setup. I don't have too m
 - LG 27UK850: a beautiful 27 inch 4K screen that also supports HDR content and includes a USB-C connection that will also charge my 2018 MacBook Pro.
 - MacBook Pro 15" (2015): this is a laptop from work. It has an Intel i7, 16GB of RAM and a dedicated graphics card and that's more power than I'll ever need. It's like having a very thin, good looking, supercomputer that I can carry with me.
 - MacBook Pro 15" (2018): this is our family computer, with some overkill specs like a 6-core i7, 16GB of RAM, 512GB of storage and a Radeon Pro 650X. This machine is used for gaming, side-projects, and everything else not related to work.
-- iPhone 7 128GB: this is the best phone I've ever had. The matte black finish is gorgeous and I never run out of space.
+- iPhone 11: the best camera in any smartphone. I ditched my iPad because the screen is more than sufficient for my more mobile needs.
 - Magic Mouse 2: it's not the best mouse in terms of ergonomics but it's easy to carry around. I switch from the trackpad to the Magic Mouse regularly in order to prevent RSI.
 - Magic Keyboard: this might be controversial but I honestly think this is the greatest keyboard ever produced.
-- AirPods: I never knew I needed AirPods until I actually bought them. They are truly magical in that they sound nice, the user experience is awesome, and they aren't as ugly as I thought they would. AirPods feel like they shouldn't exist but they do.
+- AirPods Pro: I recently replaced my original AirPods with the Pro version. They help me focus in the loud open-office plans which I often find myself in.
 - Apple Watch Series 3: this is another one of those "I didn't know I needed it until I tried" products. My Apple Watch is now an important part of my life, keeping me healthy by daily reminders to stand/walk more and drink more water.
 - [Sonos Beam](https://www.sonos.com/nl-nl/shop/beam.html) and [Sonos One](https://www.sonos.com/nl-nl/shop/one.html): Music around the house, speaks for itself. I do however always want to buy more Sonos stuff.
