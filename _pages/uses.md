@@ -19,7 +19,6 @@ I use a lot of apps throughout the day but these are the ones I use the most.
 - [Docker](https://www.docker.com): I try and run as much of the tools that I use on the command-line in containers for obvious reasons.
 - [SSHuttle](https://github.com/sshuttle/sshuttle): forwards my network traffic over a secure SSH tunnel.
 - [AWS CLI](https://aws.amazon.com/cli/): I use the AWS CLI for all sorts of work, mostly because I don't like clicking around in the web UI all the time.
-- [Tweetbot](https://tapbots.com/tweetbot/): not sure if it's still the best Twitter desktop client, but it's what I'm used to and it syncs nicely with my iOS devices.
 - [Things](https://culturedcode.com/things/): the only todo app that actually looks good on Mac and iOS.
 - [1Password](https://1password.com): 1Password really is a life saver. I couldn't possibly live without it.
 - [Slack](https://slackhq.com): work related stuff goes here.
