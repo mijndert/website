@@ -7,7 +7,7 @@ permalink: /more/uses/
 
 If you're anything like me you probably love to talk about the tools that you use to do your work every day. This page serves as a living document of the things I use every day.
 
-## 👨‍💻 Desktop apps
+## 👨‍💻 Software
 
 I use a lot of apps throughout the day but these are the ones I use the most.
 
@@ -28,7 +28,7 @@ I use a lot of apps throughout the day but these are the ones I use the most.
 
 ## ⌨️ Hardware
 
-In terms of hardware I try to maintain a fairly simple setup. I don't have too much stuff because otherwise everything gets outdated really quickly.
+In terms of hardware I try to maintain a fairly simple setup.
 
 - LG 27UK850: a beautiful 27 inch 4K screen that also supports HDR content and includes a USB-C connection that will also charge my 2018 MacBook Pro.
 - MacBook Pro 15" (2015): this is a laptop from work. It has an Intel i7, 16GB of RAM and a dedicated graphics card and that's more power than I'll ever need. It's like having a very thin, good looking, supercomputer that I can carry with me.
