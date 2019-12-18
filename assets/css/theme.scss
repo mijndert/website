@@ -40,10 +40,6 @@ a {
   color: #3A4145;
 }
 
-  a.permalink {
-    text-decoration: none;
-  }
-
 img {
   max-width: 100%;
 }
@@ -178,19 +174,19 @@ body {
     font-size: 0.8em;
   }
 
-.archive-list {
+.blog-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.archive-title {
+.blog-title {
   font-family: $header-font;
   font-weight: 700;
   
 }
 
-.archive-meta {
+.blog-meta {
   margin: 1em 0 0 .5em;
   font-family: $header-font;
   font-size: 0.8em;
@@ -199,7 +195,7 @@ body {
   text-transform: uppercase;
 }
 
-.archive-excerpt {
+.blog-excerpt {
   margin: 0.5em 0 1em 0;
   line-height: 1.75em;
 }

@@ -1,19 +1,13 @@
-name:           Mijndert Stuij
-description:    Engineer. Hacker. Minimalist.
+name:           'Mijndert Stuij'
+description:    'Engineer. Hacker. Minimalist.'
 url:            'https://mijndertstuij.nl'
 author:         'Mijndert Stuij'
 
-#paginate: 10
-#excerpt_separator: "<!-- more -->"
-
-#plugins:
-#  - jekyll-paginate
-
 # Exclude on build
-exclude: [README.md, Rakefile, Makefile, awsenv.sh]
+exclude: [README.md, Rakefile, Makefile]
 
 # Include on build
-include: [_pages, .htaccess]
+include: [_pages]
 
 markdown: kramdown
 kramdown:

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Archive
-description: "All posts in a yearly archive."
-permalink: /archive/
+title: Blog
+description: "Blog"
+permalink: /blog/
 ---
 
 {% for post in site.posts %}
@@ -11,11 +11,11 @@ permalink: /archive/
      <h2>{{ currentyear }}</h2>
     {% capture year %}{{currentyear}}{% endcapture %}
   {% endif %}
-  <ul class="archive-list">
+  <ul class="blog-list">
     <li>
-      <a class="archive-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="archive-meta">{{ post.category }} <a class="permalink" href="{{ post.url }}">&infin;</a></span>
-      <section class="archive-excerpt">
+      <a class="blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="blog-meta">{{ post.category }}</span>
+      <section class="blog-excerpt">
           {% if post.description.size > 0 %}
             {{ post.description }}
           {% else %}
