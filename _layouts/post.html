@@ -11,17 +11,17 @@ post_class: post-template
 
       <header class="post-header">
         <section class="post-meta">
-            {% if page.categories.size > 0 %}
+            <!-- {% if page.categories.size > 0 %}
               {{ page.categories | array_to_sentence_string | append: ' on ' }}
-            {% endif %}
+            {% endif %} -->
             <time class="post-date" datetime="{{ post.date | date: '%B %d, %Y' }}">{{ page.date | date: '%B %d, %Y' }}</time>
         </section>
       </header>
-
+      
       <section class="post-content">
         {{content}}
       </section>
-      
+    
     </article>
 
 </main>

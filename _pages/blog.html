@@ -6,15 +6,15 @@ permalink: /blog/
 ---
 
 {% for post in site.posts %}
-  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+  <!-- {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
   {% if currentyear != year %}
      <h2>{{ currentyear }}</h2>
     {% capture year %}{{currentyear}}{% endcapture %}
-  {% endif %}
+  {% endif %} -->
   <ul class="blog-list">
     <li>
       <a class="blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="blog-meta">{{ post.category }}</span>
+      <span class="blog-meta">{{ post.date | date: '%B %d, %Y' }}</span>
       <section class="blog-excerpt">
           {% if post.description.size > 0 %}
             {{ post.description }}

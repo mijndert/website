@@ -4,7 +4,6 @@ title: "Segue"
 date: 2019-01-10 08:00:00 +02:00
 permalink: /post/:year/segue/
 description: "Out with the old. I've been changing a lot about this website."
-category: essay
 ---
 
 For the past few years my website has been in a state of constant flux. I would change the design over and over, I would change course with my content, I would not post a single thing for months on end. Most of those issues existed because of one thing: lack of focus.
