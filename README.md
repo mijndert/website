@@ -1,4 +1,4 @@
-This is the Git repository for the website that runs on http://mijndertstuij.nl.
+This is the Git repository for the website that runs on https://mijndert.dev.
 
 Use the Makefile to build, serve, and push the website. Or run a Docker container manually:
 

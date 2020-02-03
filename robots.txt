@@ -2,4 +2,4 @@
 ---
 
 User-agent: *
-Sitemap: https://mijndertstuij.nl/sitemap.xml
+Sitemap: https://mijndert.dev/sitemap.xml
