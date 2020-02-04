@@ -42,6 +42,7 @@ a {
 
 img {
   max-width: 100%;
+  display: inline-block;
 }
 
 ul,ol {
@@ -183,7 +184,6 @@ body {
 .blog-title {
   font-family: $header-font;
   font-weight: 700;
-  
 }
 
 .blog-meta {
@@ -196,7 +196,7 @@ body {
 }
 
 .blog-excerpt {
-  margin: 0.5em 0 1em 0;
+  margin: 0.2em 0 1.5em 0;
   line-height: 1.75em;
 }
 
@@ -212,7 +212,8 @@ body {
 }
 
 .page-excerpt {
-  margin: 0.5em 0 1em 0;
+  margin: 0.2em 0 1.5em 0;
+  line-height: 1.75em;
 }
 
 @media only screen and (max-width: 600px) {
