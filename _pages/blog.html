@@ -14,7 +14,6 @@ permalink: /blog/
   <ul class="blog-list">
     <li>
       <a class="blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="blog-meta">{{ post.date | date: '%B %d, %Y' }}</span>
       <section class="blog-excerpt">
           {% if post.description.size > 0 %}
             {{ post.description }}
@@ -22,8 +21,7 @@ permalink: /blog/
             {{ post.excerpt }}
           {% endif %}
       </section>
-      
-
+      <span class="blog-meta">{{ post.date | date: '%D' }}</span>
     </li>
   </ul>
 {% endfor %}
