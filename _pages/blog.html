@@ -20,8 +20,8 @@ permalink: /blog/
           {% else %}
             {{ post.excerpt }}
           {% endif %}
+          <p class="blog-meta">{{ post.date | date: '%D' }}</p>
       </section>
-      <span class="blog-meta">{{ post.date | date: '%D' }}</span>
     </li>
   </ul>
 {% endfor %}
