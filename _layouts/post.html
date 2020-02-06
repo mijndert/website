@@ -1,24 +1,23 @@
 ---
 layout: default
-post_class: post-template
 ---
 
-{% include header.html %}
+<article class="post">
 
-<main class="content" role="main">
+    {{ content }}
 
-    <article class="post">
+</article>
 
-      <header class="post-header">
-        <section class="post-meta">
-            <time class="post-date" datetime="{{ post.date | date: '%D' }}">{{ page.date | date: '%D' }}</time>
-        </section>
-      </header>
-      
-      <section class="post-content">
-        {{content}}
-      </section>
-    
-    </article>
+<section class="post-credits">
 
-</main>
+    <h2>
+        Where do you go from here?
+    </h2>
+
+    <p>
+        If you have thoughts you want to share with me <a href="{{ site.url }}/hello/">please do</a>. 
+        I'm always happy to engage with strangers via email. 
+        And if you're looking for more posts to read, the archive is down below.
+    </p>
+
+</section>

@@ -10,7 +10,7 @@ def prompt(*args)
 end
 
 desc "Generate new post"
-task :essay do
+task :post do
 
   puts 'Post title:'
   @name = STDIN.gets.chomp

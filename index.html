@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2>
+    Thoughts
+</h2>
+
+<ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>

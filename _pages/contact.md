@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contact
+title: Connect
 description: "Ways of contacting me."
-permalink: /more/contact/
+permalink: /connect/
 ---
 
 Due to my busy schedule I prefer asynchronous communication. Either send me an email (mijndert @ this domain) or find me on [Twitter](https://twitter.com/mijndert).

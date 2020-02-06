@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Now
+title: What I'm doing now
 permalink: /now/
 ---
 
@@ -10,3 +10,5 @@ This page acts as a place to tell you where my focus is right now in my professi
 - Getting more AWS certifications
 - Trying to read more books
 - Working on this website
+
+Last updated on February 6th, 2020
