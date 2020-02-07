@@ -131,7 +131,9 @@ pre.highlight {
     margin: 0 0 2em 0;
 }
 
-// TODO: Add blogpost list from index.html
+.thoughts {
+
+}
 
 .page {
 
@@ -164,13 +166,34 @@ pre.highlight {
     .header
 */
 
-.header h1 {
-
-}
-
 /*
     .bio
 */
+
+/*
+    Thoughts
+*/
+
+.thoughts ul {
+    list-style: none;
+}
+
+.thoughts ul li {
+    margin: .5em 0 3em 0;
+}
+
+.thoughts ul li p {
+    margin: .5em 0 .5em 0;
+}
+
+.thoughts ul li span {
+    color: grey;
+    font-size: 14px;
+}
+
+.thoughts .archive-link {
+    text-align: center;
+}
 
 /*
     .page
@@ -190,4 +213,12 @@ pre.highlight {
 
 .footer a {
     margin: 0 .75em 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        margin: 0 2em 0 2em;
+    }
+
 }
