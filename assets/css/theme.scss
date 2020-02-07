@@ -53,14 +53,19 @@ h2, h3, h4, h5 {
     margin: 3em 0 2em 0;
 }
 
+p {
+    line-height: 1.75em;
+    margin: 2em 0 2em 0;
+}
+
 img {
     max-width: 100%;
     display: inline-block;
 }
 
-p {
-    line-height: 1.75em;
-    margin: 2em 0 2em 0;
+blockquote {
+    margin: 0 0 0 2em;
+    font-style: italic;
 }
 
 /*
