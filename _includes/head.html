@@ -1,6 +1,12 @@
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>
+        {% if page.url == "/" %}
+            {{ site.name }}
+        {% else %}
+            {{ page.title }} - {{ site.name }}
+        {% endif %}
+    </title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
     <link href="https://fonts.googleapis.com/css?family=Lora|Vollkorn&display=swap" rel="stylesheet"> 
