@@ -1,8 +1,23 @@
 <!DOCTYPE html>
+
 <html>
+  
+  {% include logo.html %}
+
   {% include head.html %}
-  <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
-      {{ content }}
+
+  <body>
+    
+    {% include header.html %}
+
+    {% if page.url == "/" %}
+        {% include bio.html %}    
+    {% endif %}
+
+    {{ content }}
+
+    {% include footer.html %}
+    
   </body>
-  {% include footer.html %}
+
 </html>

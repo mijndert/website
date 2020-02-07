@@ -1,16 +1,10 @@
-.PHONY: clean post preview build serve push invalidate
+.PHONY: clean post preview build serve 
 
 clean:
 	$(RM) -r _site/
 
-essay:
-	docker run -p 4000:4000 --rm --volume="$(CURDIR):/srv/jekyll" -it jekyll/jekyll:latest rake essay
-
-external:
-	docker run -p 4000:4000 --rm --volume="$(CURDIR):/srv/jekyll" -it jekyll/jekyll:latest rake external
-
-tutorial:
-	docker run -p 4000:4000 --rm --volume="$(CURDIR):/srv/jekyll" -it jekyll/jekyll:latest rake tutorial
+post:
+	docker run -p 4000:4000 --rm --volume="$(CURDIR):/srv/jekyll" -it jekyll/jekyll:latest rake post
 
 preview: clean
 	docker run -p 4000:4000 --rm --volume="$(CURDIR):/srv/jekyll" -it jekyll/jekyll:latest jekyll s --future
