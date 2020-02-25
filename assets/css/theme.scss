@@ -15,7 +15,7 @@ $link-hover: red;
     Font variables
 */
 
-$font-family: 'Lora', serif; 
+$font-family: 'Lora', serif;
 $font-family-headers: 'Vollkorn', serif;
 $font-size: 16px;
 
@@ -91,7 +91,7 @@ a:hover {
 ul {
     list-style-type: circle;
     list-style-position: outside;
-    margin: 0 0 0 .5em;
+    margin: 0 0 0 1em;
 }
 
 ul li {
@@ -106,7 +106,7 @@ ul li {
 .highlight {
     display: block;
 }
-  
+
 pre.highlight {
     padding: 0.8em;
     font-family: Inconsolata, monospace, sans-serif;
@@ -206,7 +206,7 @@ pre.highlight {
 */
 
 /*
-    .post-credits 
+    .post-credits
 */
 
 /*
