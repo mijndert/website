@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Purpose"
-date: 2019-01-28 10:17:53 +02:00
+date: 2019-01-28
 permalink: /thought/:year/purpose/
 description: "What I think minimalism is and isn't."
 ---

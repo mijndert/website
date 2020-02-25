@@ -6,14 +6,14 @@ layout: default
     Thoughts
 </h2>
 
-<section class="thoughts">    
+<section class="thoughts">
 
     <ul>
         {% for post in site.posts limit:3 %}
             <li>
                 <a href="{{ post.url }}">{{ post.title }}</a>
                 <p>{{ post.description }}</p>
-                <span>{{ post.date | date: '%B %d, %Y' }}</span>
+                <span>Day {{ post.date | date: '%j' }}</span>
             </li>
         {% endfor %}
     </ul>

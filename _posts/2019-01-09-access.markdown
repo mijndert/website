@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Access"
-date: 2019-01-09 10:47:15 +02:00
+date: 2019-01-09
 permalink: /thought/:year/access/
 description: "Your television is spying on you and nothing gets patched."
 ---

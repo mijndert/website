@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Coordination"
-date: 2020-02-14 06:38:31 +02:00
-permalink: /post/:year/coordination/
+date: 2020-02-14
+permalink: /thought/:year/coordination/
 description: "Things I've learned while setting up a GitHub repository"
 ---
 

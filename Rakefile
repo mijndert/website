@@ -1,7 +1,7 @@
 DATE = Time.now.strftime("%Y-%m-%d")
 TIME = Time.now.strftime("%H:%M:%S")
 POST_DIR = '_posts'
-PERMALINK = '/post/:year/'
+PERMALINK = '/thought/:year/'
 
 def prompt(*args)
 
@@ -25,7 +25,7 @@ task :post do
       file << "---\n"
       file << "layout: post\n"
       file << "title: \"#{@name}\"\n"
-      file << "date: #{DATE} #{TIME} +02:00\n"
+      file << "date: #{DATE} \n"
       file << "permalink: #{PERMALINK}#{@title}/\n"
       file << "description: \"\"\n"
       file << "---\n"
