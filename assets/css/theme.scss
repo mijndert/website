@@ -6,10 +6,8 @@
     Color variables
 */
 
-$color: hsla(0,0%,0%,0.9);
+$color: black;
 $link-color: blue;
-$link-border: red;
-$link-hover: red;
 
 /*
     Font variables
@@ -75,13 +73,12 @@ blockquote {
 a {
     color: $link-color;
     text-decoration: none;
-    border-bottom: 1.5px solid $link-border;
     line-height: .8rem;
     padding: 0;
 }
 
 a:hover {
-    color: $link-hover;
+    text-decoration: underline;
 }
 
 /*
@@ -217,6 +214,10 @@ pre.highlight {
     margin: 0 .75em 0 0;
 }
 
+/*
+    Mobile
+*/
+
 @media only screen and (max-width: 600px) {
 
     body {
@@ -225,6 +226,28 @@ pre.highlight {
 
     .footer {
         padding-bottom: 2rem;
+    }
+
+}
+
+/*
+    Dark mode
+*/
+
+@media (prefers-color-scheme: dark) {
+    
+    body {
+        background-color: #141c2b;
+        color: white;
+    }
+
+    a {
+        color: #7da7ef;
+        border: none;
+    }
+
+    .logo span {
+        background-color: #7da7ef;
     }
 
 }
