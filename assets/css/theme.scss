@@ -33,6 +33,7 @@ html {
 
 body {
     margin: 0 auto;
+    background-color: #fdfdfd;
     max-width: 42em;
     color: $color;
     word-wrap: break-word;
@@ -226,28 +227,6 @@ pre.highlight {
 
     .footer {
         padding-bottom: 2rem;
-    }
-
-}
-
-/*
-    Dark mode
-*/
-
-@media (prefers-color-scheme: dark) {
-    
-    body {
-        background-color: #141c2b;
-        color: white;
-    }
-
-    a {
-        color: #7da7ef;
-        border: none;
-    }
-
-    .logo span {
-        background-color: #7da7ef;
     }
 
 }
