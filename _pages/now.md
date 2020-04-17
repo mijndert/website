@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Now
+description: "What I'm up to right now."
 permalink: /now/
 ---
 
