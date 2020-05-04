@@ -14,12 +14,12 @@ If you're anything like me you probably love to talk about the tools that you us
 - [Zsh](https://www.zsh.org/) &mdash; You can find my [dotfiles](https://github.com/mijndert/dotfiles) right here.
 - [Tmux](https://github.com/tmux/tmux/wiki) &mdash; allows me to me switch between multiple programs and projects at once.
 - [Vim](https://www.vim.org/) &mdash; Vim is and always will be my favorite editor, though I must admit I fire up VS Code every once in a while too.
+- [PyCharm](https://www.jetbrains.com/pycharm/) &mdash; I always use Jetbrains stuff whenever I need an IDE.
 - [Amphetamine](https://itunes.apple.com/nl/app/amphetamine/id937984704?mt=12) &mdash; I use my laptop like a desktop, so nothing should ever sleep. This handy tool prevents that.
 - [Docker](https://www.docker.com) &mdash; I try and run as much of the tools that I use on the command-line in containers for obvious reasons.
-- [SSHuttle](https://github.com/sshuttle/sshuttle) &mdash; forwards my network traffic over a secure SSH tunnel to protect my privacy.
 - [AWS CLI](https://aws.amazon.com/cli/) &mdash; I use the AWS CLI for all sorts of work, mostly because I don't like clicking around in the web UI all the time.
 - [CloudFormation](https://aws.amazon.com/cloudformation/) &mdash; All infrastructure as code goes here
-- [Terraform](): &mdash; When CloudFormation doesn't quite cut it. 
+- [Terraform](https://www.terraform.io/) &mdash; When CloudFormation doesn't quite cut it. 
 - [Git](https://git-scm.com/) &mdash; I'm a heavy user of Git and GitHub for storing my infrastructure as code projects.
 - [1Password](https://1password.com) &mdash; 1Password really is a life saver. I couldn't possibly live without it.
 - [Slack](https://slackhq.com) &mdash; I work remote all the time, either at home or at clients. Slack makes it possible to stay in touch with colleagues.
