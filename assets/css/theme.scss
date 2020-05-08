@@ -13,8 +13,8 @@ $link-color: blue;
     Font variables
 */
 
-$font-family: 'Lora', serif;
-$font-family-headers: 'Vollkorn', serif;
+$font-family: 'Inter', sans-serif;
+$font-family-headers: 'Lora', serif;
 $font-size: 16px;
 
 /*
@@ -33,7 +33,6 @@ html {
 
 body {
     margin: 0 auto;
-    background-color: #fdfdfd;
     max-width: 42em;
     color: $color;
     word-wrap: break-word;
@@ -93,7 +92,7 @@ ul {
 }
 
 ul li {
-    margin: 1em 0 1em 0;
+    margin: 0.8em 0 0 0;
     line-height: 1.75em;
 }
 
@@ -156,7 +155,7 @@ pre.highlight {
 
 
 .logo span {
-    background-color: blue;
+    background-color: $link-color;
     padding: 1em;
     color: #ffffff;
 }
