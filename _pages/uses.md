@@ -26,11 +26,10 @@ If you're anything like me you probably love to talk about the tools that you us
 
 ## Hardware
 
-- [15" MacBook Pro](https://www.apple.com/mac/) &mdash; I'm currently using the 2019 model with a 6-core i7, 16GB of RAM and 512GB of storage.
+- [16" MacBook Pro](https://www.apple.com/mac/) &mdash; I'm currently using the 2019 model with a 6-core i7, 16GB of RAM and 512GB of storage.
 - [LG 27UK850](https://www.lg.com/us/monitors/lg-27UK850-W-4k-uhd-led-monitor) &mdash; After using a Dell Ultrasharp 1440p panel for the longest time I've switched to this LG one. It's 4K and it has USB-C connections making it future-proof for now.
 - [iPhone 11](https://www.apple.com/iphone-11/) &mdash; This is again the best iPhone Apple has ever made. I love the camera and the huge screen, though I understand it's not for everybody.
 - [Magic Mouse 2](https://www.apple.com/shop/product/MLA02LL/A/magic-mouse-2-silver) &mdash; In terms of ergonomics this isn't the best mouse so I switch to the trackpad regulary to prevent RSI. I love this mouse because it's very portable and has touch input.
-- [Magic Trackpad 2](https://www.apple.com/shop/product/MRMF2/magic-trackpad-2-space-gray) &mdash; Just like the trackpad on my MacBook Pro. 
 - [Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english) &mdash; Hands down the best keyboard ever made. I'm using the small version without the numpad because it fits in my bag. Portability is important to me.
 - [AirPods Pro](https://www.apple.com/airpods-pro/) &mdash; Awesome pair of headphones to block out the noise caused by open-office plans I often find myself in.
 - [Apple Watch Series 3](https://www.apple.com/watch/) &mdash; I don't want to do without my Apple Watch anymore. It makes sure I don't have to grab my phone out of my pocket every time I get a notification. I also love the workout features and stuff like music controls.
