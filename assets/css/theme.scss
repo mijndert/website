@@ -7,7 +7,7 @@
 */
 
 $color: black;
-$link-color: #1E00FF;
+$link-color: black;
 
 /*
     Font variables
@@ -29,7 +29,6 @@ $font-size: 16px;
 html {
     height: 100%;
     max-height: 100%;
-    border-top: 5px solid $link-color;
 }
 
 body {
