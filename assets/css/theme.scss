@@ -235,20 +235,21 @@ pre.highlight {
     Dark mode
 */
 
-// @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     
-//     body {
-//         background-color: #141c2b;
-//         color: white;
-//     }
+    body {
+        background-color: black;
+        color: white;
+    }
 
-//     a {
-//         color: #7da7ef;
-//         border: none;
-//     }
+    a {
+        color: white;
+        border: none;
+    }
 
-//     .logo span {
-//         background-color: #7da7ef;
-//     }
+    .logo span {
+        background-color: white;
+        color: black;
+    }
 
-// }
+}
