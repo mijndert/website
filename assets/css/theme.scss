@@ -7,7 +7,7 @@
 */
 
 $color: black;
-$link-color: black;
+$link-color: #1E00FF;
 
 /*
     Font variables
@@ -235,21 +235,21 @@ pre.highlight {
     Dark mode
 */
 
-@media (prefers-color-scheme: dark) {
+// @media (prefers-color-scheme: dark) {
     
-    body {
-        background-color: black;
-        color: white;
-    }
+//     body {
+//         background-color: black;
+//         color: white;
+//     }
 
-    a {
-        color: white;
-        border: none;
-    }
+//     a {
+//         color: white;
+//         border: none;
+//     }
 
-    .logo span {
-        background-color: white;
-        color: black;
-    }
+//     .logo span {
+//         background-color: white;
+//         color: black;
+//     }
 
-}
+// }
