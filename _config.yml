@@ -4,7 +4,7 @@ url:            'https://mijndertstuij.nl'
 author:         'Mijndert Stuij'
 
 # Exclude on build
-exclude: [README.md, Rakefile, Makefile]
+exclude: [README.md, Rakefile, Makefile, .gitignore]
 
 # Include on build
 include: [_pages]
