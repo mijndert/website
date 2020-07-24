@@ -12,7 +12,7 @@ If you're anything like me you probably love to talk about the tools that you us
 - [Firefox](https://www.mozilla.org/firefox/new/) &mdash; a super fast, customizable web browser. I use it every single day on all my devices.
 - [iTerm2](https://www.iterm2.com) &mdash; Still the best terminal emulator ever, mostly because Tmux and iTerm2 play nice. [Dracula](https://draculatheme.com/iterm/) as the color scheme and [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) as the font.
 - [Zsh](https://www.zsh.org/) &mdash; You can find my [dotfiles](https://github.com/mijndert/dotfiles) right here.
-- [NeoMutt](https://neomutt.org/) &mdash; Simple, fast e-mail client.
+- [NeoMutt](https://neomutt.org/) &mdash; Simple, fast e-mail client. I use this one for quickly triaging incoming messages.
 - [Tmux](https://github.com/tmux/tmux/wiki) &mdash; allows me to me switch between multiple programs and projects at once.
 - [Vim](https://www.vim.org/) &mdash; Vim is and always will be my favorite editor, though I must admit I fire up VS Code every once in a while too.
 - [PyCharm](https://www.jetbrains.com/pycharm/) &mdash; I always use Jetbrains stuff whenever I need an IDE.
