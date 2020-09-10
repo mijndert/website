@@ -229,21 +229,18 @@ Mobile
 Dark mode
 */
 
-// @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
-//   body {
-//     background-color: black;
-//     color: white;
-//   }
+  body {  
+    background-color: #091C28;
+    color: white;
+  }
 
-//   a {
-//     color: white;
-//     border: none;
-//   }
+  a {
+    color: #848D93;
+  }
 
-//   .logo span {
-//     background-color: white;
-//     color: black;
-//   }
-
-// }
+  .thoughts ul li span {
+    color: #848D93;
+  }
+}
