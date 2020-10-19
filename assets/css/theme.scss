@@ -6,15 +6,15 @@
 Color variables
 */
 
-$color: black;
-$link-color: #1E00FF;
+$color: #444340;
+$background-color: #F8F8F8;
+//$link-color: #1E00FF;
+$link-color: #444340;
 
 /*
 Font variables
 */
 
-// $font-family: 'Inter', sans-serif;
-// $font-family-headers: 'Lora', serif;
 $font-family: 'IBM Plex Sans', sans-serif;
 $font-family-headers: 'IBM Plex Serif', serif;
 $font-family-code: 'IBM Plex Mono', monospace;
@@ -35,6 +35,7 @@ html {
 }
 
 body {
+  background-color: $background-color;
   margin: 0 auto;
   max-width: 42em;
   color: $color;
@@ -75,14 +76,12 @@ Link styles
 
 a {
   color: $link-color;
-  text-decoration: none;
   line-height: .8rem;
   padding: 0;
-  font-weight: bold;
 }
 
 a:hover {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 /*
@@ -223,24 +222,4 @@ Mobile
     padding-bottom: 2rem;
   }
   
-}
-
-/*
-Dark mode
-*/
-
-@media (prefers-color-scheme: dark) {
-
-  body {  
-    background-color: #091C28;
-    color: white;
-  }
-
-  a {
-    color: #848D93;
-  }
-
-  .thoughts ul li span {
-    color: #848D93;
-  }
 }
