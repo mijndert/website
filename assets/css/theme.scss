@@ -8,7 +8,6 @@ Color variables
 
 $color: #444340;
 $background-color: #F8F8F8;
-//$link-color: #1E00FF;
 $link-color: #444340;
 
 /*
@@ -51,8 +50,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h2, h3, h4, h5 {
-  text-align: center;
-  margin: 3em 0 2em 0;
+  margin: 3em 0 1em 0;
 }
 
 p {
@@ -126,13 +124,13 @@ Sections
   margin: 8em 0 4em 0;
 }
 
-.bio {
-  margin: 0 0 2em 0;
-}
-
-// .thoughts {
+// .bio {
   
 // }
+
+.thoughts {
+  margin: 8em 0 8em 0;
+}
 
 // .page {
   
@@ -143,7 +141,7 @@ Sections
 // }
 
 .post-credits {
-  margin: 10em 0;
+  margin: 8em 0;
 }
 
 .footer {
@@ -184,9 +182,9 @@ Thoughts
   font-size: 14px;
 }
 
-.thoughts .archive-link {
-  text-align: center;
-}
+// .thoughts .archive-link {
+//   text-align: center;
+// }
 
 /*
 .page
