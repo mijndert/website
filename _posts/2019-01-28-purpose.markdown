@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Purpose"
+title: "What I think minimalism is and isn't"
 date: 2019-01-28
 permalink: /thought/:year/purpose/
-description: "What I think minimalism is and isn't."
 ---
 
 Places like Reddit and Twitter are filled with people who practice their version of minimalism. The most prevalent method is to just have less of everything. Some groups of people even go so far as to think they can only have a fixed amount of things in their lives.

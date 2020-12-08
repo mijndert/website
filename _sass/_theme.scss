@@ -162,7 +162,7 @@ Thoughts
 }
 
 .thoughts ul li {
-  margin: .5em 0 3em 0;
+  margin: .5em 0 .5em 0;
 }
 
 .thoughts ul li p {
@@ -172,6 +172,8 @@ Thoughts
 .thoughts ul li span {
   color: grey;
   font-size: 14px;
+  text-align: left;
+  margin-right: 16px;
 }
 
 // .thoughts .archive-link {
