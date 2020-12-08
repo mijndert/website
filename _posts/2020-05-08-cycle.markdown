@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Terra"
+title: "Creating a workflow for Terraform using GitHub Actions"
 date: 2020-05-08 
 permalink: /thought/:year/terra/
-description: "Creating a CI workflow for Terraform using GitHub Actions."
 ---
 
 Recently I started working with Terraform more and more, as CloudFormation is lagging behind in terms of support for newer AWS services. Terraform has quite a steep learning curve, but once it _clicks_ you never want to go back to the old days.

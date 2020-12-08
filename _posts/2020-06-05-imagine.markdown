@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Imagine"
+title: "I can't possibly begin to imagine what it's like"
 date: 2020-06-05 
 permalink: /thought/:year/imagine/
-description: "I can't possibly begin to imagine what it's like."
 ---
 
 I'm a white male living in Europe. I can't possibly begin to imagine what it's like to be black. 

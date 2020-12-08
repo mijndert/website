@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Coordination"
+title: "Things I've learnt while setting up a GitHub repository"
 date: 2020-02-14
 permalink: /thought/:year/coordination/
-description: "Things I've learnt while setting up a GitHub repository."
 ---
 
 For the past few weeks I've been planning and working on [a new project](https://github.com/mijndert/cloudformation). It's not a very novel idea but it's something I want to exist and I'm hoping others will get some value out of it as well.
