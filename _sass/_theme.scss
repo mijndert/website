@@ -12,10 +12,9 @@ $font-family-code: 'IBM Plex Mono', monospace;
 
 $font-size: 20px;
 $font-size-h1: 40px;
-$font-size-h2: 36px;
-$font-size-h3: 32px;
-$font-size-h4: 28px;
-$font-size-h5: 24px;
+$font-size-h2: 32px;
+$font-size-h3: 28px;
+$font-size-h4: 24px;
 $font-size-thoughts: 40px;
 
 //
@@ -39,7 +38,7 @@ html {
 body {
   background-color: $background-color;
   margin: 0 auto;
-  max-width: 58em;
+  max-width: 60em;
   color: $color;
   word-wrap: break-word;
   font-size: $font-size;
@@ -49,14 +48,15 @@ body {
 }
 
 h1 { font-size: $font-size-h1; margin: 4em 0 2em 0; }
-h2 { font-size: $font-size-h2 }
-h3 { font-size: $font-size-h3 }
-h4 { font-size: $font-size-h4 }
-h5 { font-size: $font-size-h5 }
+h2 { font-size: $font-size-h2;  }
+h3 { font-size: $font-size-h3; }
+h4 { font-size: $font-size-h4; }
+h2,h3,h4 {margin: 1.2em 0 1em 0;}
 
 p {
   line-height: 1.55em;
   margin: 0 0 1em 0;
+  // font-family: $font-family-sans;
 }
 
 img {
