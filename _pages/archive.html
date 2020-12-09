@@ -1,11 +1,14 @@
 ---
-layout: default
+layout: page
+title: Archive
+description: "All thoughts on one page."
+permalink: /archive/
 ---
 
 <section class="thoughts">
   
   <ul>
-    {% for post in site.posts limit:8 %}
+    {% for post in site.posts %}
       {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
       {% if currentyear != year %}
         <h2>{{ currentyear }}</h2>

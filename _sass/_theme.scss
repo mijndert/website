@@ -10,12 +10,13 @@ $font-family-sans: 'IBM Plex Sans', sans-serif;
 $font-family-serif: 'IBM Plex Serif', serif;
 $font-family-code: 'IBM Plex Mono', monospace;
 
-$font-size: 20px;
+$font-size: 18px;
+$font-size-bio: 20px;
+$font-size-code: 16px;
 $font-size-h1: 40px;
 $font-size-h2: 32px;
 $font-size-h3: 28px;
 $font-size-h4: 24px;
-$font-size-thoughts: 40px;
 
 //
 // Reset
@@ -38,7 +39,7 @@ html {
 body {
   background-color: $background-color;
   margin: 0 auto;
-  max-width: 60em;
+  max-width: 44em;
   color: $color;
   word-wrap: break-word;
   font-size: $font-size;
@@ -47,7 +48,7 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
-h1 { font-size: $font-size-h1; margin: 4em 0 2em 0; }
+h1 { font-size: $font-size-h1; margin: 2em 0 1em 0; }
 h2 { font-size: $font-size-h2;  }
 h3 { font-size: $font-size-h3; }
 h4 { font-size: $font-size-h4; }
@@ -56,7 +57,7 @@ h2,h3,h4 {margin: 1.2em 0 1em 0;}
 p {
   line-height: 1.55em;
   margin: 0 0 1em 0;
-  // font-family: $font-family-sans;
+  font-family: $font-family-sans;
 }
 
 img {
@@ -96,6 +97,7 @@ ul {
   pre.highlight {
     padding: 0.8em;
     font-family: $font-family-code;
+    font-size: $font-size-code;
     box-sizing: border-box;
     white-space: pre;
     overflow: auto;
@@ -115,9 +117,13 @@ ul {
 // 
 
 .bio {
-  font-size: 34px;
   margin: 4em 0 4em 0;
+  font-size: $font-size-bio;
 }
+
+  .bio p {
+    font-family: $font-family-serif;
+  }
 
  .bio a {
    text-decoration: underline;
@@ -153,7 +159,6 @@ ul {
 .thoughts h3 {
   margin: .5em 0 .5em 0;
   font-family: $font-family-serif;
-  font-size: $font-size-thoughts;
 }
 
 .thoughts p.description {
@@ -164,11 +169,6 @@ ul {
 // 
 // .post
 // 
-
-.post {
-  width: 42em;
-  margin: 0 auto;
-}
 
 // 
 // .footer
@@ -184,6 +184,10 @@ ul {
     font-family: $font-family-sans;
     font-size: 16px;
     padding-top: 1em;
+  }
+
+  .footer a {
+    text-decoration: underline;
   }
 
 //
