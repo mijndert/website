@@ -5,7 +5,7 @@ layout: default
 <section class="thoughts">
   
   <ul>
-    {% for post in site.posts %}
+    {% for post in site.posts limit:10 %}
       {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
       {% if currentyear != year %}
         <h2>{{ currentyear }}</h2>
@@ -13,12 +13,11 @@ layout: default
       {% endif %}
       
       <li>
-        <span>Day {{ post.date | date: '%j' }}</span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <!-- <p>{{ post.description }}</p> -->
-        
+        <p class="meta">{{ post.date | date: "%B %e" | upcase }}</p>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="description">{{ post.description }}</p>      
       </li>
     {% endfor %}
   </ul>
-  
+
 </section>

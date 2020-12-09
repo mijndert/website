@@ -3,6 +3,7 @@ layout: post
 title: "What the second half of this crazy year has on offer"
 date: 2020-07-24 
 permalink: /thought/:year/2020/
+description: this is a test
 ---
 
 The first half of this year has been relentless in its weirdness. The COVID-19 crisis has thrown most plans out the window, but also opened doors to previously unexplored terrain. I've been working from home for most of the year and the new normal is just now settling in a bit. 
