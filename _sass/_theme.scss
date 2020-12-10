@@ -1,28 +1,36 @@
-/*
-Color variables
-*/
+// 
+// Variables
+// 
 
-$color: #444340;
-$background-color: #F8F8F8;
-$link-color: #444340;
+$color: #303030;
+$background-color: #d7d9db;
+$link-color: #303030;
 
-/*
-Font variables
-*/
-
-$font-family: 'IBM Plex Sans', sans-serif;
-$font-family-headers: 'IBM Plex Serif', serif;
+$font-family-sans: 'IBM Plex Sans', sans-serif;
+$font-family-serif: 'IBM Plex Serif', serif;
 $font-family-code: 'IBM Plex Mono', monospace;
-$font-size: 16px;
 
-/*
-Ellements without classes
-*/
+$font-size: 18px;
+// $font-size-bio: 18px;
+$font-size-meta: 14px;
+$font-size-code: 16px;
+$font-size-h1: 40px;
+$font-size-h2: 32px;
+$font-size-h3: 28px;
+$font-size-h4: 24px;
+
+//
+// Reset
+// 
 
 * {
   margin: 0;
   padding: 0;
 }
+
+//
+// Defaults
+//
 
 html {
   height: 100%;
@@ -32,26 +40,25 @@ html {
 body {
   background-color: $background-color;
   margin: 0 auto;
-  max-width: 42em;
+  max-width: 44em;
   color: $color;
   word-wrap: break-word;
   font-size: $font-size;
-  font-family: $font-family;
+  font-family: $font-family-serif;
   font-kerning: normal;
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: $font-family-headers;
-}
-
-h2, h3, h4, h5 {
-  margin: 3em 0 1em 0;
-}
+h1 { font-size: $font-size-h1; margin: 2em 0 1em 0; }
+h2 { font-size: $font-size-h2;  }
+h3 { font-size: $font-size-h3; }
+h4 { font-size: $font-size-h4; }
+h2,h3,h4 {margin: 1.2em 0 1em 0;}
 
 p {
-  line-height: 1.75em;
-  margin: 2em 0 2em 0;
+  line-height: 1.55em;
+  margin: 0 0 1em 0;
+  font-family: $font-family-sans;
 }
 
 img {
@@ -60,13 +67,9 @@ img {
 }
 
 blockquote {
-  margin: 0 0 0 2em;
+  margin: 0 0 1em 2em;
   font-style: italic;
 }
-
-/*
-Link styles
-*/
 
 a {
   color: $link-color;
@@ -74,141 +77,128 @@ a {
   padding: 0;
 }
 
-a:hover {
-  font-weight: bold;
-}
-
-/*
-List styles
-*/
+  a:hover {
+    color: blue;
+  }
 
 ul {
   margin: 0 0 0 1em;
 }
 
-ul li {
-  margin: 0.8em 0 0 0;
-  line-height: 1.75em;
-}
-
-/*
-Code blocks
-*/
+  ul li {
+    margin: 0.8em 0 0 0;
+    line-height: 1.75em;
+  }
 
 .highlight {
   display: block;
 }
 
-pre.highlight {
-  padding: 0.8em;
-  font-family: $font-family-code;
-  box-sizing: border-box;
-  white-space: pre;
-  overflow: auto;
-}
+  pre.highlight {
+    padding: 0.8em;
+    font-family: $font-family-code;
+    font-size: $font-size-code;
+    box-sizing: border-box;
+    white-space: pre;
+    overflow: auto;
+  }
 
-/*
-Sections
-*/
+//
+// .logo
+// 
 
-.logo {
+.logo { 
   padding-top: 1em;
   font-weight: bold;
 }
 
-.header {
-  margin: 8em 0 4em 0;
+//
+// .bio
+// 
+
+.bio {
+  margin: 4em 0 4em 0;
 }
 
-// .bio {
-  
-// }
+  .bio p {
+    font-family: $font-family-serif;
+  }
 
-.thoughts {
-  margin: 8em 0 8em 0;
-}
+ .bio a {
+   text-decoration: underline;
+ }
 
-// .page {
-  
-// }
-
-// .post {
-  
-// }
-
-.post-credits {
-  margin: 8em 0;
-}
-
-/*
-.logo
-*/
-
-/*
-.header
-*/
-
-/*
-.bio
-*/
-
-/*
-Thoughts
-*/
+// 
+// .thoughts
+// 
 
 .thoughts ul {
   list-style: none;
   margin: 0;
 }
 
-.thoughts ul li {
-  margin: .5em 0 .5em 0;
+  .thoughts ul li {
+    margin: 2.5em 0 2.5em 0;
+  }
+
+.thoughts h2 {
+  border-top: 3px solid $color;
+  font-family: $font-family-sans;
+  font-size: $font-size; 
+  padding-top: 1em;
 }
 
-.thoughts ul li p {
-  margin: .5em 0 .5em 0;
-  text-overflow: ellipsis;
-}
-
-.thoughts ul li span {
+.thoughts p.meta {
   color: grey;
-  font-size: 14px;
-  text-align: left;
-  margin-right: 16px;
+  margin: 0 0 1em 0;
+  font-size: $font-size-meta;
+  font-family: $font-family-sans;
 }
 
-// .thoughts .archive-link {
-//   text-align: center;
-// }
+.thoughts h3 {
+  margin: .5em 0 .5em 0;
+  font-family: $font-family-serif;
+}
 
-/*
-.page
-*/
+  .thoughts h3 a {
+    text-decoration: none;
+  }
 
-/*
-.post
-*/
+.thoughts p.description {
+  font-family: $font-family-sans;
+}
 
-/*
-.post-credits
-*/
+// 
+// .post
+// 
 
-/*
-.footer
-*/
+.post .post-header img {
+  display: block;
+}
+
+// 
+// .footer
+// 
 
 .footer {
   margin: 6em 0 4em 0;
   padding-bottom: 2em;
 }
 
-.footer a {
-  margin: 0 1em 0 0;
-}
+  .footer p {
+    border-top: 3px solid $color;
+    font-family: $font-family-sans;
+    font-size: 16px;
+    padding-top: 1em;
+  }
 
-/*
-Mobile
-*/
+  .footer a {
+    text-decoration: underline;
+  }
+
+//
+// Mobile
+// 
 
 @media only screen and (max-width: 600px) {
   

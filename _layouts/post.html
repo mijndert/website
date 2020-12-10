@@ -3,17 +3,14 @@ layout: default
 ---
 
 <article class="post">
+   
+  {% if page.header %}
+    <section class="post-header"> 
+      <img src="{{ page.header }}">
+    </section>
+  {% else %}
+  {% endif %}
 
-    {{ content }}
+  {{ content }}
 
 </article>
-
-<section class="post-credits">
-    
-    <p>
-        If you have thoughts you want to share with me <a href="{{ site.url }}/connect/">please do</a>. 
-        I'm always happy to engage with strangers via email. 
-        Head on <a href="{{ site.url }}/">home</a> if you're looking for more to read, or use the <a href="{{ site.url }}/feed.xml">RSS feed</a> in your favorite feed reader.
-    </p>
-
-</section>
