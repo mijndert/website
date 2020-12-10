@@ -82,7 +82,7 @@ a {
   }
 
 ul {
-  margin: 0 0 0 1em;
+  margin: 0 0 1em 1em;
 }
 
   ul li {
@@ -92,6 +92,7 @@ ul {
 
 .highlight {
   display: block;
+  margin: 1em 0 1em 0;
 }
 
   pre.highlight {
