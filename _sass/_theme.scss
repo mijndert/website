@@ -11,7 +11,8 @@ $font-family-serif: 'IBM Plex Serif', serif;
 $font-family-code: 'IBM Plex Mono', monospace;
 
 $font-size: 18px;
-$font-size-bio: 20px;
+// $font-size-bio: 18px;
+$font-size-meta: 14px;
 $font-size-code: 16px;
 $font-size-h1: 40px;
 $font-size-h2: 32px;
@@ -66,7 +67,7 @@ img {
 }
 
 blockquote {
-  margin: 0 0 0 2em;
+  margin: 0 0 1em 2em;
   font-style: italic;
 }
 
@@ -74,7 +75,6 @@ a {
   color: $link-color;
   line-height: .8rem;
   padding: 0;
-  text-decoration: none;
 }
 
   a:hover {
@@ -118,7 +118,6 @@ ul {
 
 .bio {
   margin: 4em 0 4em 0;
-  font-size: $font-size-bio;
 }
 
   .bio p {
@@ -138,21 +137,21 @@ ul {
   margin: 0;
 }
 
-.thoughts ul li {
-  margin: 2.5em 0 2.5em 0;
-}
+  .thoughts ul li {
+    margin: 2.5em 0 2.5em 0;
+  }
 
 .thoughts h2 {
   border-top: 3px solid $color;
   font-family: $font-family-sans;
-  font-size: $font-size;
+  font-size: $font-size; 
   padding-top: 1em;
 }
 
 .thoughts p.meta {
   color: grey;
   margin: 0 0 1em 0;
-  font-size: 14px;
+  font-size: $font-size-meta;
   font-family: $font-family-sans;
 }
 
@@ -161,14 +160,21 @@ ul {
   font-family: $font-family-serif;
 }
 
+  .thoughts h3 a {
+    text-decoration: none;
+  }
+
 .thoughts p.description {
   font-family: $font-family-sans;
-  font-size: 18px;
 }
 
 // 
 // .post
 // 
+
+.post .post-header img {
+  display: block;
+}
 
 // 
 // .footer

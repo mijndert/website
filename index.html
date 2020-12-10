@@ -5,7 +5,7 @@ layout: default
 <section class="thoughts">
   
   <ul>
-    {% for post in site.posts limit:8 %}
+    {% for post in site.posts limit:10 %}
       {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
       {% if currentyear != year %}
         <h2>{{ currentyear }}</h2>
