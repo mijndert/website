@@ -4,14 +4,21 @@
 
 $color: #303030;
 $background-color: #d7d9db;
+$meta-color: grey;
 $link-color: #303030;
+$link-color-hover: grey;
+
+$color-dark: white;
+$background-color-dark: rgb(13, 17, 23);
+$meta-color-dark: lightgrey;
+$link-color-dark: white;
+$link-color-hover-dark: lightgrey;
 
 $font-family-sans: 'IBM Plex Sans', sans-serif;
 $font-family-serif: 'IBM Plex Serif', serif;
 $font-family-code: 'IBM Plex Mono', monospace;
 
 $font-size: 18px;
-// $font-size-bio: 18px;
 $font-size-meta: 14px;
 $font-size-code: 16px;
 $font-size-h1: 40px;
@@ -78,7 +85,7 @@ a {
 }
 
   a:hover {
-    color: blue;
+    color: $link-color-hover;
   }
 
 ul {
@@ -112,6 +119,11 @@ ul {
   padding-top: 1em;
   font-weight: bold;
 }
+
+  .logo .terminal {
+    stroke: $color;
+
+  }
 
 //
 // .bio
@@ -150,7 +162,7 @@ ul {
 }
 
 .thoughts p.meta {
-  color: grey;
+  color: $meta-color;
   margin: 0 0 1em 0;
   font-size: $font-size-meta;
   font-family: $font-family-sans;
@@ -211,4 +223,37 @@ ul {
     padding-bottom: 2em;
   }
   
+}
+
+// 
+// Dark mode 
+// 
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: $background-color-dark;
+    color: $color-dark;
+  }
+
+  a {
+    color: $link-color-dark;
+  }
+
+    a:hover {
+      color: $link-color-hover-dark;
+    }
+  
+  .logo .terminal {
+    stroke: $color-dark;
+  }
+
+  .thoughts h2 {
+    border-top: 3px solid $color-dark;
+  }
+
+  .thoughts p.meta {
+    color: $meta-color-dark;
+  }
+
 }
