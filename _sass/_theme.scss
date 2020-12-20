@@ -56,7 +56,7 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
-h1 { font-size: $font-size-h1; margin: 2em 0 1em 0; }
+h1 { font-size: $font-size-h1; }
 h2 { font-size: $font-size-h2;  }
 h3 { font-size: $font-size-h3; }
 h4 { font-size: $font-size-h4; }
@@ -140,6 +140,21 @@ ul {
  .bio a {
    text-decoration: underline;
  }
+
+// 
+// .header
+// 
+
+.header {
+  margin: 4em 0 1em 0;
+}
+
+.header p.meta {
+  color: $meta-color;
+  margin: 0 0 1em 0;
+  font-size: $font-size-meta;
+  font-family: $font-family-sans;
+}
 
 // 
 // .thoughts
