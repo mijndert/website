@@ -1,6 +1,5 @@
 DATE = Time.now.strftime("%Y-%m-%d")
-TIME = Time.now.strftime("%H:%M:%S")
-POST_DIR = '_posts'
+POST_DIR = '_drafts'
 PERMALINK = '/thought/:year/'
 
 def prompt(*args)

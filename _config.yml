@@ -3,10 +3,9 @@ description:    'Engineer. Hacker. Minimalist.'
 url:            'https://mijndertstuij.nl'
 author:         'Mijndert Stuij'
 
-# Exclude on build
-exclude: [README.md, Rakefile, Makefile, .gitignore]
+show_drafts: false
 
-# Include on build
+exclude: [README.md, Rakefile, Makefile, .gitignore]
 include: [_pages]
 
 markdown: kramdown
