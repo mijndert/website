@@ -40,7 +40,7 @@ A new post ends up in the `_drafts` folder where I can freely write without it e
 
 Like everything else about this website, the Rakefile to achieve this is also [available on GitHub](https://github.com/mijndert/website/blob/master/Rakefile).
 
-One tip though, make sure you include `show_drafts: false` in your configuration so drafts won't end up on the website anyway.
+Make sure you include `show_drafts: false` in your configuration so drafts won't end up on the website anyway.
 
 ## GitHub Pages
 
