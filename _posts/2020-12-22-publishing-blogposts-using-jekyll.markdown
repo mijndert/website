@@ -40,6 +40,8 @@ A new post ends up in the `_drafts` folder where I can freely write without it e
 
 Like everything else about this website, the Rakefile to achieve this is also [available on GitHub](https://github.com/mijndert/website/blob/master/Rakefile).
 
+One tip though, make sure you include `show_drafts: false` in your configuration so drafts won't end up on the website anyway.
+
 ## GitHub Pages
 
 Hosting a completely static website doesn't require some complex stack of software - that's why I've been hosting on [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site) for quite a while now. Like any other service, GitHub Pages can and will go offline sometimes, but it's free so I have absolutely nothing to complain about.
