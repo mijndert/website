@@ -3,7 +3,6 @@ POST_DIR = '_drafts'
 PERMALINK = '/thought/:year/'
 
 def prompt(*args)
-
   print(*args)
   gets
 end
