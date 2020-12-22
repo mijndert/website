@@ -23,7 +23,7 @@
   {% if page.url == "/" %}
   <link rel="canonical" href="{{ site.url }}">
   {% else %}
-  <link rel="canonical" href="{{site.url}}/{{ page.url }}">
+  <link rel="canonical" href="{{site.url}}{{ page.url }}">
   {% endif %}
   
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
