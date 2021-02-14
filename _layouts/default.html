@@ -5,8 +5,16 @@
   {% include head.html %}
 
   <body>
+
+    {% if page.url == "/" %}
+    {% else %}
+      <a href="/">back</a>
+    {% endif %}
     
-    {% include header.html %}
+    {% if page.url == "/" %}
+    {% else %}
+      {% include header.html %}
+    {% endif %}
   
     {% if page.url == "/" %}
         {% include bio.html %}    

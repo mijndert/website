@@ -2,7 +2,7 @@
 // Variables
 // 
 
-$color: #303030;
+$color: #333;
 $background-color: #f2f2f2;
 
 $font-family: 'IBM Plex Mono', monospace;
@@ -32,14 +32,25 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 47rem;
+  padding: 2.4rem 2rem;
   color: $color;
   font-family: $font-family;
+  text-rendering: optimizeLegibility;
   font-kerning: normal;
   font-feature-settings: "kern", "liga", "clig", "calt";
+  line-height: 1.75;
 }
 
+h1,h2,h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  font-size: 1rem; 
+}
+
+
 p {
-  line-height: 1.75;
+  margin: 1rem 0;
 }
 
 a {
@@ -51,59 +62,81 @@ img {
   display: inline-block;
 }
 
+blockquote {
+  // margin-left: 2rem;
+  padding-left: 1rem;
+  font-style: italic;
+  border-left: 5px solid #ddd;
+}
+
+time {
+  color: #bbb;
+}
+
 // 
-// .bio 
+// .bio, .header
 // 
 
-.bio {
-  margin: 4rem 0 4rem 0;
+.bio, .header {
+  margin-top: 2rem;
 }
 
 // 
 // .blog 
 // 
 
-.blog ul {
-  list-style: none;
-  margin-bottom: 0.8rem;
+.blog {
+  margin-top: 6rem;
 }
 
-  .blog ul li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .blog ul {
+    list-style: none;
     margin-bottom: 0.5rem;
   }
 
-    .blog ul li a {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      font-weight: bold;
+    .blog ul li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
     }
 
-    .blog ul li time {
-      color: grey;
-      padding-left: 1rem;
-      white-space: nowrap;
-      font-variant-numeric: tabular-nums;
-    }
+      .blog ul li a {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: bold;
+      }
+
+      .blog ul li time {
+        padding-left: 1rem;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+
+// 
+// .highlight 
+// 
+
+.highlight {
+  display: block;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+  pre.highlight {
+    padding: 0.8rem;
+    box-sizing: border-box;
+    white-space: pre;
+    overflow: auto;
+  }
 
 //
 // Mobile
 // 
 
-@media only screen and (max-width: 600px) {
+// @media only screen and (max-width: 600px) {
   
-  body {
-    margin: 0 1em 0 1em;
-  }
-  
-  .footer {
-    padding-bottom: 2em;
-  }
-  
-}
+// }
 
 // 
 // Dark mode 
