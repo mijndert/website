@@ -1,7 +1,5 @@
 <header class="header">
 
-  <p class="meta">{{ page.date | date: "%B %e, %Y" | upcase }}</p>
-
   <h1>
     
     {% if page.url == "/" %}
@@ -10,5 +8,7 @@
     {% endif %}
     
   </h1>
+
+  <time>{{ page.date | date: "%b %d, %Y" | upcase }}</time>
   
 </header>
