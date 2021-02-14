@@ -9,11 +9,11 @@ If you're anything like me you probably love to talk about the tools that you us
 
 ## Software
 
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/): &mdash; Mozilla isn't a perfect company, but I stick with Firefox to combat the mono-engine internet.
 - [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) &mdash; Recently switched back to Terminal from iTerm2 since Tmux is all I need really. [Dracula](https://draculatheme.com/) as the color scheme and [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) as the font.
 - [Zsh](https://www.zsh.org/) &mdash; You can find my [dotfiles](https://github.com/mijndert/dotfiles) right here.
-- [NeoMutt](https://neomutt.org/) &mdash; Simple, fast e-mail client. I use this one for quickly triaging incoming messages. Otherwise I'll use the default Apple Mail app.
 - [Tmux](https://github.com/tmux/tmux/wiki) &mdash; Allows me to me switch between multiple programs and projects at once.
-- [Vim](https://www.vim.org/) &mdash; Vim is and always will be my favorite editor, though I must admit I fire up VS Code every once in a while as well.
+- [VS Code](https://code.visualstudio.com/): &mdash; The single best editor on the planet, Microsoft knocked it out of the park with this one.
 - [Newsboat](https://newsboat.org/) &mdash; Great RSS reader.
 - [Amphetamine](https://itunes.apple.com/nl/app/amphetamine/id937984704?mt=12) &mdash; I use my laptop like a desktop, so nothing should ever sleep. This handy tool prevents that.
 - [Docker](https://www.docker.com) &mdash; I try and run as much of the tools that I use on the command-line in containers for obvious reasons.
@@ -32,4 +32,4 @@ If you're anything like me you probably love to talk about the tools that you us
 - [Logitech MX Ergo](https://www.logitech.com/nl-nl/products/mice/mx-ergo-wireless-trackball-mouse.910-005179.html): Finally replaced my aging M570 trackball with this new one.
 - [Magic Mouse 2](https://www.apple.com/shop/product/MLA02LL/A/magic-mouse-2-silver) &mdash; In terms of ergonomics this isn't the best mouse so I switch to the trackpad or trackball regulary to prevent RSI. I love this mouse because it's very portable and has touch input.
 - [Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english) &mdash; Hands down the best keyboard ever made. I'm using the small version without the numpad because it fits in my bag. Portability is important to me.
-- [AirPods Pro](https://www.apple.com/airpods-pro/) &mdash; Awesome pair of headphones to block out the noise caused by open-office plans I often find myself in.
+- [AirPods](https://www.apple.com/airpods/) &mdash; Pretty awesome pair of wireless headphones, though I hate that they are very bad for the environment.
