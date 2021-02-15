@@ -3,6 +3,7 @@ layout: post
 title: "Guiding principles for the coming year"
 date: 2019-01-07
 permalink: /thought/:year/2019/
+description: "All of the things that will guide me through the year."
 ---
 
 - Experiences over possessions

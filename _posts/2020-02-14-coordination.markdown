@@ -3,7 +3,7 @@ layout: post
 title: "Things I've learnt while setting up a GitHub repository"
 date: 2020-02-14
 permalink: /thought/:year/coordination/
-description: GitHub has some incredible tools for teams to work together, you just have to make use of them.
+description: "GitHub has some incredible tools for teams to work together, you just have to make use of them."
 ---
 
 For the past few weeks I've been planning and working on [a new project](https://github.com/mijndert/cloudformation). It's not a very novel idea but it's something I want to exist and I'm hoping others will get some value out of it as well.

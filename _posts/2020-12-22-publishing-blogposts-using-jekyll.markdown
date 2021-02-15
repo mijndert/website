@@ -3,7 +3,7 @@ layout: post
 title: "Publishing thoughts using Jekyll"
 date: 2020-12-22 
 permalink: /thought/:year/publishing-thoughts-using-jekyll/
-#description: ""
+description: "How I use Jekyll to quickly publish my thoughts."
 ---
 
 [Jekyll](https://jekyllrb.com/) has been my static website generator for years now. I understand every little detail of its inner workings and I can create my own themes and plug-ins if needed. Jekyll allows for an incredible amount of control, something I would have to give up had I used [WordPress](https://wordpress.org/) or some other CMS. Jekyll also allows me to create websites that perform very well, and I always strive for a score of 100 on [Lighthouse](https://developers.google.com/web/tools/lighthouse).
