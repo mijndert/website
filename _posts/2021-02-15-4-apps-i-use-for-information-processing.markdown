@@ -36,8 +36,18 @@ Things deserves its own blog post because I can talk for hours about the [many w
 
 ## Quick notes
 
-I've always had a bit of a love-hate relationship with digital note taking tools and I've again tried most of them. At the end of the day I want the least amount of friction between my thoughts and putting them in writing for later reference. I also like it when a tool feels a well crafted Mac app instead of some janky web app. That's why I always found apps like Bear to be very cumbersome. Since I'm already knees deep in the Apple ecosystem I'm currently using the default Apple Notes app across my devices.
+I've always had a bit of a love-hate relationship with digital note taking tools and I've again tried most of them. At the end of the day I want the least amount of friction between my thoughts and putting them in writing for later reference. I also like it when a tool feels a well crafted Mac app instead of some janky web app. That's why I always found apps like [Bear](https://bear.app/) to be very cumbersome. Since I'm already knees deep in the Apple ecosystem I'm currently using the default [Apple Notes](https://www.icloud.com/notes) app across my devices.
 
-Since WFH I have a lot of meetings with all of my different clients. During those meetings I make quick notes of everything we talked about. Right after the meeting I review my notes and distill everything into action items which I jot down in Things. After that the note basically becomes useless again as the information is processed.
+Since WFH I have a lot of meetings with all of my different clients. During those meetings I make quick notes of everything we talk about. Right after the meeting I review my notes and distill everything into action items which I jot down in Things. After that the note basically becomes useless again as the information is processed.
 
 ## Knowledge
+
+You've probably found yourself Googling a Git command or something about [regex](https://en.wikipedia.org/wiki/Regular_expression) more than once. I've been there, doesn't feel great.
+
+Recently I got into the concept of a [Second Brain](https://www.youtube.com/watch?v=OP3dA2GcAh8), Digital Brain or whatever you wanna call it. It's a collection of, in my case, Markdown files with stuff I want to keep around for future reference. Notes that I want to keep around for a short period of time are in Notes, my Digital Brain is for keeping knowledge around that will prove its worth over time.
+
+The tool I've chosen to create my Digital Brain is [Obsidian](https://obsidian.md/), but there are of course others as well like [Roam Research](https://roamresearch.com/). The latter is way too complicated for my taste as I just to have a bunch of Markdown files and I want to link certain pages together to create a cortex of sorts.
+
+At first it's quite time consuming to jot down every little piece of knowledge I can think of. But in the end I hope it'll lessen the amount of Google searches for trivial stuff. Obsidian allows me to very quickly search the contents of my Digital Brain so that's awesome as well.
+
+Another reason I'm building this is because I want to have this as my part of my legacy - a small window into what it was like when I was alive. I hope it's going to be one of those [time capsules](https://en.wikipedia.org/wiki/Time_capsule) they put in the ground to be recovered a hundred years from now. 
