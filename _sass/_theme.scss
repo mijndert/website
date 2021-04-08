@@ -48,7 +48,6 @@ h1,h2,h3 {
   font-size: 1rem; 
 }
 
-
 p {
   margin: 1rem 0;
 }
@@ -57,13 +56,16 @@ a {
   color: blue;
 }
 
+ul {
+  margin: 1em 0 0 1em;
+}
+
 img {
   max-width: 100%;
   display: inline-block;
 }
 
 blockquote {
-  // margin-left: 2rem;
   padding-left: 1rem;
   font-style: italic;
   border-left: 5px solid #ddd;
@@ -128,24 +130,3 @@ time {
     white-space: pre;
     overflow: auto;
   }
-
-//
-// Mobile
-// 
-
-// @media only screen and (max-width: 600px) {
-  
-// }
-
-// 
-// Dark mode 
-// 
-
-// @media (prefers-color-scheme: dark) {
-
-//   body {
-//     background-color: $background-color-dark;
-//     color: $color-dark;
-//   }
-
-// }

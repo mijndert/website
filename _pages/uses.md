@@ -9,7 +9,7 @@ If you're anything like me you probably love to talk about the tools that you us
 
 ## Software
 
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/): &mdash; Mozilla isn't a perfect company, but I stick with Firefox to combat the mono-engine internet.
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) &mdash; Mozilla isn't a perfect company, but I stick with Firefox to combat the mono-engine internet.
 - [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) &mdash; Recently switched back to Terminal from iTerm2 since Tmux is all I need really. [Dracula](https://draculatheme.com/) as the color scheme and [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) as the font.
 - [Zsh](https://www.zsh.org/) &mdash; You can find my [dotfiles](https://github.com/mijndert/dotfiles) right here.
 - [Tmux](https://github.com/tmux/tmux/wiki) &mdash; Allows me to me switch between multiple programs and projects at once.
