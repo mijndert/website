@@ -17,15 +17,15 @@ In this guide I want to go through as many services as possible and (briefly) ex
 
 ## Compute
 
-- [EC2 (Elastic Compute Cloud)](#) &mdash;
-- [EC2 Autoscaling](#) &mdash;
-- [Lightsail](#) &mdash;
+- [EC2 (Elastic Compute Cloud)](#) &mdash; Much like a VPS or a virtual machine. EC2 offers compute power and full administrator access to a server running either Linux, Windows or even macOS. EC2 offers before Intel (X86) and Graviton (ARM) options for its CPU. 
+- [EC2 Autoscaling](#) &mdash; Offers services designed to automatically scale the amount of EC2 instances up or down as load/demand fluctuates. 
+- [Lightsail](#) &mdash; A service similar to EC2 but with the pricing model of a company like DigitalOcean or Linode as a predetermined amount of data transfer is included in the price.
 
 ## Storage
 
-- [S3 (Simple Storage Service)](#) &mdash;
-- [EFS (Elastic File System)](#) &mdash;
-- [EBS (Elastic Block Store)](#) &mdash;
+- [S3 (Simple Storage Service)](#) &mdash; A service that offers unlimited storage. You can put files up to 5 Terabytes in so called buckets, which act like folders. You can interface with S3 via the API but there are a lot of third-party clients as well.
+- [EFS (Elastic File System)](#) &mdash; Offers NFS volumes in the cloud, with the added value that you don't have to provision any storage yourself. EFS will grow the storage automatically for you.
+- [EBS (Elastic Block Store)](#) &mdash; Acts like a USB drive for your compute resources. EBS offers so called volumes which can be up to 16 Terabytes in size and come in many different variants. There's a variant which offers cheap but slow storage, and a variant which offers very fast storage but that comes at a price.
 - [AWS Backup](#) &mdash;
 - [Storage Gateway](#) &mdash;
 
