@@ -3,8 +3,8 @@ description:    'Engineer. Runner. Minimalist.'
 url:            'https://mijndertstuij.nl'
 author:         'Mijndert Stuij'
 
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
 
 show_drafts: false
 
