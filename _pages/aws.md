@@ -26,7 +26,7 @@ In this guide I want to go through as many services as possible and (briefly) ex
 - [S3 (Simple Storage Service)](#) &mdash; A service that offers unlimited storage. You can put files up to 5 Terabytes in so called buckets, which act like folders. You can interface with S3 via the API but there are a lot of third-party clients as well.
 - [EFS (Elastic File System)](#) &mdash; Offers NFS volumes in the cloud, with the added value that you don't have to provision any storage yourself. EFS will grow the storage automatically for you.
 - [EBS (Elastic Block Store)](#) &mdash; Acts like a USB drive for your compute resources. EBS offers so called volumes which can be up to 16 Terabytes in size and come in many different variants. There's a variant which offers cheap but slow storage, and a variant which offers very fast storage but that comes at a price.
-- [AWS Backup](#) &mdash;
+- [AWS Backup](#) &mdash; 
 - [Storage Gateway](#) &mdash;
 
 ## Networking and content delivery
