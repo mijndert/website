@@ -1,0 +1,12 @@
+name = "Minimal"
+license = "MIT"
+licenselink = "https://github.com/mijndert/website-hugo/blob/main/themes/minimal/LICENSE"
+description = "Theme that powers mijndertstuij.nl"
+homepage = "https://github.com/mijndert/website-hugo"
+tags = ["simple", "minimal", "clean", "fast", "blog", "responsive", "privacy"]
+features = ["fast", "blog", "syntax highlighting"]
+min_version = "0.82"
+
+[author]
+  name = "Mijndert Stuij"
+  homepage = "https://mijndertstuij.nl"

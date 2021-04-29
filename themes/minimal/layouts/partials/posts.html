@@ -1,0 +1,12 @@
+<section class="blog">
+  <ul>
+    {{ range (where .Site.RegularPages ".Type" "posts") }}
+      <li>
+        <a href="{{ .Permalink }}">
+          {{ .Title }}
+        </a>
+        <time>{{ .Date.Format "Jan 2, 2006" | upper }}</time>
+      </li>
+    {{ end }}
+  </ul>
+</section>

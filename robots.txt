@@ -1,5 +1,0 @@
----
----
-
-User-agent: *
-Sitemap: https://mijndertstuij.nl/sitemap.xml
