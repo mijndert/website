@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-
-
 html {
   height: 100%;
   max-height: 100%;
@@ -60,14 +58,18 @@ time {
   color: #bbb;
 }
 
-
-
+pre code {
+  display: block;
+  margin: 1.5rem 0 1.5rem 0;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  white-space: pre;
+  overflow: auto;
+}
 
 .bio, .header {
   margin-top: 2rem;
 }
-
-
 
 .blog {
   margin-top: 6rem;
@@ -97,14 +99,12 @@ time {
         font-variant-numeric: tabular-nums;
       }
 
-
-
-
-pre code {
-  display: block;
-  margin: 1.5rem 0 1.5rem 0;
-  padding: 0.8rem;
-  box-sizing: border-box;
-  white-space: pre;
-  overflow: auto;
+.footer {
+  margin: 2em 0;
 }
+
+  .footer p {
+    margin: 0 0 .5em 0;
+    color: #bbb;
+  }
+

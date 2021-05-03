@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  {{- partial "head.html" . -}}
+  {{ partial "head.html" . }}
   <body>
-    {{- partialCached "header.html" . -}}
-    {{- block "main" . }}{{- end }}
-    {{- partialCached "footer.html" . -}}
+    {{ partial "header.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partialCached "footer.html" . }}
   </body>
 </html>
