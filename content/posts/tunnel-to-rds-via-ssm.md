@@ -3,7 +3,6 @@ title: "Tunnel to RDS via SSM Session Manager"
 date: 2021-05-14
 url: /thought/2021/tunnel-rds-ssm-session-manager/
 description: "How to create an SSH tunnel via SSM Session Manager to access private resources like RDS without opening port 22."
-draft: true
 ---
 
 AWS Systems Manager is a suite of tools to make administration of, mostly, EC2 instances a little easier. One of things in SSM's toolbox is Session Manager which allows you to connect to an EC2 instance without opening any ports in your security groups.
