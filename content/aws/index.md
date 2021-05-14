@@ -3,6 +3,8 @@ title: AWS explained
 description: "A continously updated (brief) guide to AWS."
 ---
 
+> This is a continually updated page. You can contribute [on GitHub](https://github.com/mijndert/website).
+
 In the old world you had to do extensive research into the right equipment that would hopefully meet all of your demands. Then you had to order the hardware, which would take another month, and then someone had to install and configure the equipment. Provisioning a bunch of servers would easily take a few months. **We're now building an entirely new class of infrastructure and democratizing them so anyone has access to them**.
 
 Today, companies can provision their infrastructure in just a few minutes and scale the amount of resources up and down as demand fluctuates. In the meantime, you just pay for the resources that you actually use. This kind of flexibility **democratizes access to compute resources**  and allows anyone with the right idea to build it and scale to millions of users without spending a dime up-front.
