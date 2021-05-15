@@ -11,7 +11,7 @@ Today, companies can provision their infrastructure in just a few minutes and sc
 
 That's where AWS comes in.
 
-AWS is short for Amazon Web Services. **The world’s largest online book store also happens to run the world’s largest public cloud provider**. Back in 2006 AWS launched with just a handful over services. Today, AWS offers PaaS (platform as a service), IaaS (infrastructure as a service), serverless computing, and much more, with well over 200 different services and products.
+AWS is short for Amazon Web Services. **The world’s largest online book store also happens to run the world’s largest public cloud provider**. Back in 2006 AWS launched with just a handful of services. Today, AWS offers PaaS (platform as a service), IaaS (infrastructure as a service), serverless computing, and much more, with well over 200 different services and products.
 
 In this guide I want to go through as many services as possible and (briefly) explain what the service is and how you can benefit from using it.
 
@@ -26,8 +26,8 @@ In this guide I want to go through as many services as possible and (briefly) ex
 - [S3 (Simple Storage Service)](#) &mdash; A service that offers unlimited storage. You can put files up to 5 Terabytes in so called buckets, which act like folders. You can interface with S3 via the API but there are a lot of third-party clients as well.
 - [EFS (Elastic File System)](#) &mdash; Offers NFS volumes in the cloud, with the added value that you don't have to provision any storage yourself. EFS will grow the storage automatically for you.
 - [EBS (Elastic Block Store)](#) &mdash; Acts like a USB drive for your compute resources. EBS offers so called volumes which can be up to 16 Terabytes in size and come in many different variants. There's a variant which offers cheap but slow storage, and a variant which offers very fast storage but that comes at a price.
-- [AWS Backup](#) &mdash; 
-- [Storage Gateway](#) &mdash;
+- [AWS Backup](#) &mdash; A service to centrally manage backups of EC2 instances, EBS and EFS volumes, DynamoDB tables and much more. AWS Backup allows you to set schedules and even copy backups to other AWS regions.
+- [Storage Gateway](#) &mdash; A solution to connect (on-premises) infrastructure to unlimited cloud storage using standard protocols like NFS, SMB and iCSCI. The gateway connects to storage services like S3, Glacier, and Amazon FSx for Windows File server.
 
 ## Networking and content delivery
 
