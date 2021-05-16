@@ -3,19 +3,13 @@ title = "Mijndert Stuij"
 theme = "minimal"
 languageCode = "en-US"
 
-#enableInlineShortcodes = true
-#pygmentsCodeFences = true
-#pygmentsUseClasses = true
-
 [params]
   description = "Engineer. Runner. Minimalist."
-  footer = "Footer goes here"
 
 [permalinks]
   posts = "/thought/:year/:title/"
 
 [markup.goldmark.renderer]
-  # Allow HTML in Markdown
   unsafe = true
 
 [outputFormats]
