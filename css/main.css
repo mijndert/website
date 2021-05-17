@@ -102,10 +102,8 @@ pre code {
         font-variant-numeric: tabular-nums;
       }
 
-article ul,
-article ol {
-  padding: 0 0 0 2rem;
-}
+article ul { padding: 0 0 0 1rem; }
+article ol { padding: 0 0 0 2rem; }
 
 .footer {
   margin: 2em 0;
