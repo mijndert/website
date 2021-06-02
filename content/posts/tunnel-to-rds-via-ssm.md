@@ -53,3 +53,32 @@ ssh ssm-user@i-123456789 \
 ```
 
 Now you should be able to connect to the RDS instance in a private subnet by connecting to `localhost:3306` from your workstation.
+
+## Putting it all together
+
+To make initiating a tunnel a little bit easier I wrote a quick Bash script that looks up the instance ID and the AZ of your bastion host. In this case is looks for the EC2 instance based on the Name tag, but of course it can be any tag you like.
+
+```bash
+#!/bin/bash
+
+green=`tput setaf 2`
+reset=`tput sgr0`
+
+echo "${green}Hostname of the resource you want to connect to:${reset}"
+read -e hostname
+echo "${green}Port of the thing you want to connect to:${reset}"
+read -e port
+echo "${green}Connecting (quit with ctrl+c)${reset}"
+
+export ID=$(aws ec2 describe-instances --output=text --query "Reservations[*].Instances[*].InstanceId" --filters Name=tag:Name,Values="BastionStack*")
+export AZ=$(aws ec2 describe-instances --output text --query 'Reservations[*].Instances[*].[Placement.AvailabilityZone]' --filters Name=tag:Name,Values="BastionStack*")
+
+aws ec2-instance-connect \
+    send-ssh-public-key \
+    --availability-zone $AZ \
+    --instance-id $ID \
+    --instance-os-user ssm-user \
+    --ssh-public-key file://$HOME/.ssh/id_ed25519.pub &>/dev/null & disown;
+
+ssh ssm-user@$ID -NL $port\:$hostname\:$port
+```
