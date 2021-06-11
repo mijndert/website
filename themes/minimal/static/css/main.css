@@ -75,6 +75,16 @@ pre code {
   margin-top: 2rem;
 }
 
+  .header-links a {
+    border-right: 2px solid #ccc;
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+  }
+
+    .header-links a:last-child {
+      border: none;
+    }
+
 .blog {
   margin-top: 6rem;
 }
