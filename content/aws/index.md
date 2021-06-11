@@ -3,7 +3,7 @@ title: AWS explained
 description: "A continously updated (brief) guide to AWS."
 ---
 
-> This is a continually updated page. You can contribute [on GitHub](https://github.com/mijndert/website).
+> This is a continually updated page, and very much a work in progress. You can contribute [on GitHub](https://github.com/mijndert/website).
 
 In the old world you had to do extensive research into the right equipment that would hopefully meet all of your demands. Then you had to order the hardware, which would take another month, and then someone had to install and configure the equipment. Provisioning a bunch of servers would easily take a few months. **We're now building an entirely new class of infrastructure and democratizing them so anyone has access to them**.
 
