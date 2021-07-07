@@ -24,7 +24,8 @@ If you're anything like me you probably love to talk about the tools that you us
 
 ## Hardware
 
-- [13" MacBook Pro (M1, 16GB, 512GB)](https://www.apple.com/mac/) &mdash; Laptop
+- [13" MacBook Pro (M1, 16GB, 512GB)](https://www.apple.com/mac/) &mdash; Work laptop
+- [13" MacBook Air (M1, 8GB, 256GB)](https://www.apple.com/mac/) &mdash; Private laptop
 - [LG 27UK850](https://www.lg.com/us/monitors/lg-27UK850-W-4k-uhd-led-monitor) / [Dell P3421W](https://www.dell.com/en-us/shop/dell-34-curved-usb-c-monitor-p3421w/apd/210-axqc/monitors-monitor-accessories) &mdash; Monitor
 - [iPhone 11 (64GB black)](https://www.apple.com/iphone-11/) &mdash; Smartphone
 - [Logitech MX Ergo](https://www.logitech.com/nl-nl/products/mice/mx-ergo-wireless-trackball-mouse.910-005179.html) &mdash; Mouse
